@@ -36,6 +36,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.section1{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section2{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .hero {
     background-image: url(../img/barberia1.jpg);
     background-position: center;
@@ -203,8 +213,9 @@ body {
 /*--SERVICIOS--*/
 
 .margenes-servicios {
-    margin: 35px;
-}
+    max-width: 1400px;
+    margin: 0 auto;
+    }
 
 .servicios p {
     text-align: center;
@@ -308,6 +319,12 @@ body {
 
 /*--GALERIA--*/
 
+.tamano-galeria{
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
 .grid-galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -347,75 +364,43 @@ body {
 
 /*--QUIENES SOMOS--*/
 
-.flex-container-quienessomos .grid-quienessomos {
-    border: 5px solid goldenrod;
-
+.margenes-quienessomos{
+    height: 1300px;
 }
 
-.grid-quienessomos {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-}
-
-.grid-quienessomos :hover {
-    background-color: blanchedalmond;
-
-}
-
-.grid-quienessomos .grid-item {
-    height: 615px;
-    width: 99%;
-    border: 2px solid goldenrod;
-    margin: 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-
-}
-
-.grid-item video {
+main video{
     position: fixed;
-    right: 0;
-    bottom: 0;
     min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: calc(30) 18px;
-    background-size: cover;
-    overflow: hidden;
-    z-index: -100;
-
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%);
+    z-index: -1;
 }
 
-.grid-item h2 {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-weight: 200px;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 45px;
+.container-quienessomos{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 15px;
+    width: 1800px;
+}
+
+
+.container-quienessomos div{
+    height: 650px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 800px;
+    text-align: center;
+    color: rgb(195, 195, 195);
+    border-radius: 25px;
+
+} 
+
+.container-quienessomos div h2{
     text-decoration: underline;
-
-}
-
-.grid-item p {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-weight: 400px;
-    font-size: medium;
-    font-family: 'Poppins', sans-serif;
-    font-style: oblique;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /*--CONTACTO--*/
@@ -432,15 +417,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .formulario {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 35%;
     height: 320px;
     margin-right: 10px;
+    background-color: rgba(120, 119, 81, 0.5);
+    border-radius: 15px;
 }
 
 .formulario form div label {
@@ -459,11 +447,13 @@ body {
 
 .tumensaje {
     display: flex;
-    justify-content: left;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 35%;
     height: 320px;
     margin-left: 10px;
+    background-color: rgba(120, 119, 81, 0.5);
+    border-radius: 15px;
 }
 
 .tumensaje div textarea {
@@ -472,6 +462,7 @@ body {
     letter-spacing: 0.1ex;
     text-transform: uppercase;
     text-indent: 0.2em;
+    margin-top: 40px;
 }
 
 .tumensaje div {
@@ -498,24 +489,25 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 220px;
     width: 100%;
-    background-color: rgb(116, 166, 172);
+    background-color: #212529;
     bottom: 0;
-    margin-top: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
 
 }
 
 footer h2 {
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: rgba(255,255,255,55);
     text-align: center;
     padding-top: 10px;
 }
 
 footer section p {
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: rgba(255,255,255,55);
     text-align: center;
 }
 
