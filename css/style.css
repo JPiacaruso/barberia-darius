@@ -36,6 +36,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.colordefondo{
+    background: #C9CCD3;
+    background-image: linear-gradient(-350deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+}
+
 .section1{
     max-width: 1400px;
     margin: 0 auto;
@@ -72,7 +78,7 @@ body {
     color: aliceblue;
     width: auto;
     text-align: center;
-    border: 1px solid white;
+    border: 2px solid rgb(250, 164, 88);
 }
 
 .hero p {
@@ -84,6 +90,10 @@ body {
     padding-top: 100px;
     text-align: center;
 
+}
+
+.margen-section1{
+    margin: 20px;
 }
 
 .section2-h2 {
@@ -103,6 +113,9 @@ body {
 
 .nuestrabarberia img {
     border: 2px solid grey;
+    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -moz-box-shadow: 13px -2px 22px -6px rgba(78, 86, 128, 0.88);
 }
 
 .nuestrabarberia div {
@@ -114,16 +127,16 @@ body {
     text-align: center;
 }
 
-.fotosbarberia h2 {
+.fotosbarberia p {
     font-family: 'Roboto Mono', monospace;
-    font-style: inherit;
 }
 
 .fotosbarberia h3 {
-    margin-top: 25px;
-    margin-left: 115px;
     font-size: 30px;
     font-style: italic;
+    padding-top: 10px;
+    background-color: #f6d365;
+    display: inline-block;
 }
 
 /* LISTA DE PRECIOS*/
@@ -143,6 +156,7 @@ body {
     font-size: 45px;
     font-family: 'Poppins', sans-serif;
     font-weight: 100px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .seccion2-izquierda {
@@ -161,21 +175,19 @@ body {
     height: 820px;
 }
 
-.grid-precios :hover {
-    border: 3px solid goldenrod;
-    transition: ease-in 1s;
+.grid-precios div:hover {
+    color: rgb(25, 27, 28);
+    background-color: #f6d365;
+    height: 97%;
 
+}
+
+.grid-precios div h2 {
+    color: rgb(0, 0, 0);
 }
 
 .grid-precios div {
     color: #fbb034;
-}
-
-.grid-precios div h2 {
-    color: rgb(15, 15, 16);
-}
-
-.grid-precios div {
     background-color: rgb(71, 71, 65);
     padding: 1em;
     border: 1px solid black;
@@ -189,6 +201,10 @@ body {
     box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 
 }
 
@@ -233,6 +249,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin: 20px;
+
 }
 
 .t1 img {
@@ -243,6 +260,12 @@ body {
 .t1 div {
     width: 500px;
     text-align: center;
+
+    transition: 2s;
+}
+
+.t1 div:hover{
+    transform: rotatex(360deg);
 }
 
 .t2 {
@@ -261,6 +284,12 @@ body {
 .t2 div {
     width: 500px;
     text-align: center;
+
+    transition: 2s;
+}
+
+.t2 div:hover{
+    transform: rotatex(360deg);
 }
 
 .t3 {
@@ -279,6 +308,12 @@ body {
 .t3 div {
     width: 500px;
     text-align: center;
+
+    transition: 2s;
+}
+
+.t3 div:hover {
+    transform: rotatex(360deg);
 }
 
 .t4 {
@@ -297,7 +332,14 @@ body {
 .t4 div {
     width: 500px;
     text-align: center;
+
+    transition: 2s;
 }
+
+.t4 div:hover {
+    transform: rotatex(360deg);
+}
+
 
 .t5 {
     background-color: rgb(228, 166, 176);
@@ -315,14 +357,20 @@ body {
 .t5 div {
     width: 500px;
     text-align: center;
+
+    transition: 2s;
 }
+
+.t5 div:hover{
+    transform: rotatex(360deg);
+}
+
 
 /*--GALERIA--*/
 
 .tamano-galeria{
     max-width: 1400px;
     margin: 0 auto;
-
 }
 
 .grid-galeria {
@@ -340,7 +388,12 @@ body {
     box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    
+    transition: 1.3s;
+}
 
+.grid-galeria div img:hover{
+    transform: scale(1.05);
 }
 
 .galeria h1 {
@@ -366,6 +419,17 @@ body {
 
 .margenes-quienessomos{
     height: 1300px;
+}
+
+.fondo-quienessomos:hover{
+    transform: translatex(-70%);
+    color: #c7e9e3;
+    background-color: #d9d9d9;
+    color: #212529;
+}
+
+.fondo-quienessomos{
+    transition: 1.7s;
 }
 
 main video{
@@ -409,7 +473,27 @@ main video{
     text-align: center;
     text-decoration: underline;
     margin-top: 45px;
+    color: #212529;
+    font-size: 35px;
+    text-shadow: 7px 3px 6px rgba(0,0,0,0.44);
+    animation-name: contactanos-titulo;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-delay: 0.5s;
 }
+
+@keyframes contactanos-titulo{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
 
 .container-contacto {
     height: 500px;
@@ -429,6 +513,9 @@ main video{
     margin-right: 10px;
     background-color: rgba(120, 119, 81, 0.5);
     border-radius: 15px;
+    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
 }
 
 .formulario form div label {
@@ -454,6 +541,9 @@ main video{
     margin-left: 10px;
     background-color: rgba(120, 119, 81, 0.5);
     border-radius: 15px;
+    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
 }
 
 .tumensaje div textarea {
@@ -463,6 +553,7 @@ main video{
     text-transform: uppercase;
     text-indent: 0.2em;
     margin-top: 40px;
+    
 }
 
 .tumensaje div {
@@ -868,9 +959,21 @@ footer section p {
     }
 
     .seccion2-derecha img {
-        width: 490px;
+        width: 340px;
         height: 100%;
         border-radius: 0%;
+    }
+
+    .footer{
+        width: 350;
+    }
+
+    .footer h2{
+        font-size: large;
+    }
+
+    .footer p{
+        font-size: medium;
     }
 
 }
