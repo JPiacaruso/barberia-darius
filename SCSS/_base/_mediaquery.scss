@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1276px) {
     .nuestrabarberia {
         display: flex;
@@ -14,35 +15,67 @@
         border: 1px solid black;
     }
 
-    .nuestrabarberia img {
-        width: 400px;
-        height: 300px;
-        margin: 10px;
+    .nuestrabarberia{
+        img{
+            width: 400px;
+            height: 300px;
+            margin: 10px;
+        }
     }
 
-    .fotosbarberia h3 {
-        margin-top: 10px;
-        margin-left: 0%;
+    .fotosbarberia{
+        h3{
+            margin-top: 10px;
+            margin-left: 0%;
+        }
     }
 
-    .fotosbarberia p {
-        margin-bottom: 8px;
+    .fotosbarberia{
+        p{
+            margin-bottom: 8px;
+        }
     }
 
-    .hero div {
-        display: flex;
-        flex-direction: column;
+    .hero{
+        div{
+            display: flex;
+            flex-direction: column;
+        }
     }
 
-    .hero div p {
-        font-size: 18px;
-        margin: 25px;
+    .hero{
+        div{
+            p{
+                font-size: 18px;
+                margin: 25px;
+            }
+        }
     }
-
-
 }
 
 @media screen and (max-width:1126px) {
+    
+    header{
+        nav{
+            div{
+                a{
+                font-size: 25px;
+                margin: 2px;
+                text-align: center
+                }
+            }
+        }
+    }
+
+    header{
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
     .hero {
         height: 90%;
     }
@@ -61,24 +94,11 @@
         height: 820px;
     }
 
-    .seccion2-derecha img {
-        width: 80%;
-        height: 810px;
-    }
-
-    header nav div a {
-        font-size: 25px;
-        margin: 2px;
-        text-align: center
-    }
-
-    header nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
+    .seccion2-derecha{
+        img{
+            width: 80%;
+            height: 810px;
+        }
 }
 
 @media screen and (max-width: 976px) {
@@ -87,38 +107,53 @@
         height: 80%;
     }
 
-    .hero h2 {
-        font-size: 40px;
+    .hero{
+        h2{
+            font-size: 40px;
+        }
     }
 
-    .hero div p {
-        font-weight: 600px;
-        font-size: 17px;
+    .hero{
+        div{
+            p{
+                font-weight: 600px;
+                font-size: 17px;
+            }
+        }
+}
 
-    }
-
-    .nuestrabarberia img {
+    .nuestrabarberia{
+        img {
         width: 300px;
         height: 200px;
         margin: 10px;
     }
+}
 
     .grid-precios {
         height: 600px;
     }
 
-    .grid-precios div {
+    .grid-precios{
+        div {
         height: 65px;
+        }
     }
 
-    .grid-precios div h3 {
-        font-size: 18px;
-
+    .grid-precios{
+        div{
+            h3 {
+            font-size: 18px;
+            }
+        }
     }
 
-    .grid-precios div h2 {
-        font-size: 18px;
-
+    .grid-precios{
+        div{
+            h2{
+            font-size: 18px;
+            }
+        }
     }
 
     .section2 {
@@ -135,13 +170,15 @@
         width: 50%;
     }
 
-    .seccion2-izquierda div {
+    .seccion2-izquierda{
+        div{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 350px;
         height: 67px;
+        }
     }
 
     .section2-h2 {
@@ -154,9 +191,11 @@
 
     }
 
-    .seccion2-derecha img {
+    .seccion2-derecha{
+        img {
         width: 80%;
         height: 605px;
+        }
     }
 
     .grid-galeria {
@@ -185,13 +224,23 @@
 
 
 @media screen and (max-width: 699px) {
-    header nav ul {
-        flex-direction: column;
-        text-align: center;
+    header{
+        nav{
+            ul{
+            flex-direction: column;
+            text-align: center;
+            }
+        }
     }
 
-    header nav ul li {
-        margin: 7px;
+    header{
+        nav{
+            ul{
+                li{
+                margin: 7px;
+                }
+            }
+        }
     }
 
     .hero {
@@ -199,31 +248,39 @@
         height: 70%;
     }
 
-    .hero h2 {
+    .hero{
+        h2{
         font-size: 35px;
         font-weight: 90px;
         margin-top: 125px;
         padding: 15px;
+        }
     }
 
-    .hero div p {
-        font-weight: 600px;
-        font-size: 15px;
-        margin-bottom: 30px;
-        padding-top: 70px;
-        text-align: center;
-
+    .hero{
+        div{
+            p{
+            font-weight: 600px;
+            font-size: 15px;
+            margin-bottom: 30px;
+            padding-top: 70px;
+            text-align: center;
+            }
+        }
     }
 
-    .fotosbarberia h3 {
+    .fotosbarberia{
+        h3{
         margin-top: 10px;
         margin-left: 0%;
         font-size: 20px;
+        }
     }
 
-    .fotosbarberia p {
+    .fotosbarberia{
+        p{
         font-size: 13px;
-
+        }
     }
 
     .grid-precios {
@@ -232,23 +289,31 @@
         height: 500px;
     }
 
-    .grid-precios div {
+    .grid-precios{
+        div{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 55px;
+        }
     }
 
-    .grid-precios div h2 {
-        font-size: 16px;
-
+    .grid-precios{
+        div{
+            h2{
+            font-size: 16px;
+            }
+        }
     }
 
-    .grid-precios div h3 {
-        font-size: 15px;
-        padding-top: 8px;
-
+    .grid-precios{
+        div{
+            h3{
+            font-size: 15px;
+            padding-top: 8px;
+            }
+        }
     }
 
     .section2 {
@@ -267,9 +332,11 @@
         height: 530px;
     }
 
-    .seccion2-izquierda div {
+    .seccion2-izquierda{
+        div{
         width: 250px;
         height: 57px;
+        }
     }
 
     .seccion2-derecha {
@@ -277,26 +344,30 @@
         width: 50%;
     }
 
-    .seccion2-derecha img {
+    .seccion2-derecha{
+        img{
         width: 80%;
         height: 525px;
+        }
     }
-
-}
 
 @media screen and (max-width: 503px) {
 
-    .nuestrabarberia img {
+    .nuestrabarberia{
+        img{
         width: 220px;
         height: 110px;
         margin: 10px;
+        }
     }
 
-    .hero h2 {
+    .hero{
+        h2{
         font-size: 25px;
         font-weight: 90px;
         margin-top: 85px;
         padding: 10px;
+        }
     }
 
     .hero {
@@ -313,12 +384,15 @@
 
     }
 
-    .hero div p {
-        font-weight: 600px;
-        font-size: 13px;
+    .hero{
+        div{
+            p{
+            font-weight: 600px;
+            font-size: 13px;
+            }
+        }
     }
     
-
     .section2 {
         display: flex;
         flex-direction: column;
@@ -340,24 +414,29 @@
         margin-bottom: 5px;
     }
 
-    .seccion2-derecha img {
+    .seccion2-derecha{
+        img{
         width: 340px;
         height: 100%;
         border-radius: 0%;
+        }
     }
 
     .footer{
         width: 350;
     }
 
-    .footer h2{
+    .footer{
+        h2{
         font-size: large;
+        }
     }
 
-    .footer p{
+    .footer{
+        p{
         font-size: medium;
+        }
     }
-
 }
 
 @media screen and (max-width: 450px) {
