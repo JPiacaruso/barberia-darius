@@ -69,7 +69,7 @@ body {
 
 }
 
-.hero h2 {
+.hero h1 {
     font-size: 50px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 100px;
@@ -116,11 +116,6 @@ body {
     box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     -moz-box-shadow: 13px -2px 22px -6px rgba(78, 86, 128, 0.88);
-}
-
-.nuestrabarberia div {
-    height: auto;
-    width: fit-content;
 }
 
 .fotosbarberia {

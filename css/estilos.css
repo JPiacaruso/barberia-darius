@@ -21,6 +21,441 @@ header nav div a {
 header nav div div ul li {
   margin: 15px; }
 
+body {
+  font-family: 'Poppins', sans-serif; }
+
+.colordefondo {
+  background: #C9CCD3;
+  background-image: linear-gradient(-350deg, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-blend-mode: lighten; }
+
+.section1 {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.section2 {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.hero {
+  background-image: url(../img/barberia1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black; }
+
+.hero h1 {
+  font-size: 50px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100px;
+  margin-top: 145px;
+  padding: 25px;
+  color: aliceblue;
+  width: auto;
+  text-align: center;
+  border: 2px solid #faa458; }
+
+.hero div p {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  padding-top: 100px;
+  text-align: center; }
+
+.margen-section1 {
+  margin: 20px; }
+
+.nuestrabarberia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .nuestrabarberia img {
+    border: 2px solid grey;
+    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -moz-box-shadow: 13px -2px 22px -6px rgba(78, 86, 128, 0.88); }
+
+.section2-h2 {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+  border: 1px solid black; }
+
+.fotosbarberia {
+  text-align: center; }
+  .fotosbarberia p {
+    font-family: 'Roboto Mono', monospace; }
+  .fotosbarberia h3 {
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 10px;
+    background-color: #f6d365;
+    display: inline-block; }
+
+/*----LISTA DE PRECIOS----*/
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 840px; }
+
+.section2-h2 {
+  text-align: center;
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); }
+
+.seccion2-izquierda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 840px; }
+
+.grid-precios {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 80%;
+  height: 820px; }
+  .grid-precios div {
+    color: #fbb034;
+    background-color: #474741;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: 15px;
+    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out; }
+    .grid-precios div:hover {
+      color: #191b1c;
+      background-color: #f6d365;
+      height: 97%; }
+    .grid-precios div h2 {
+      color: black; }
+
+.seccion2-derecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 840px; }
+  .seccion2-derecha img {
+    width: 80%;
+    height: 810px;
+    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    border-radius: 10px; }
+
+/*----SERVICIOS----*/
+.margenes-servicios {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.servicios {
+  text-align: center;
+  margin: 10px; }
+  .servicios p {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace; }
+
+.t1 {
+  background-color: #8489e1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px; }
+  .t1 img {
+    width: 250px;
+    height: 250px; }
+  .t1 div {
+    width: 500px;
+    text-align: center;
+    transition: 2s; }
+    .t1 div:hover {
+      transform: rotatex(360deg); }
+
+.t2 {
+  background-color: #f69a79;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px; }
+  .t2 img {
+    width: 250px;
+    height: 250px; }
+  .t2 div {
+    width: 500px;
+    text-align: center;
+    transition: 2s; }
+    .t2 div:hover {
+      transform: rotatex(360deg); }
+
+.t3 {
+  background-color: #d5abfe;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px; }
+  .t3 img {
+    width: 250px;
+    height: 250px; }
+  .t3 div {
+    width: 500px;
+    text-align: center;
+    transition: 2s; }
+    .t3 div:hover {
+      transform: rotatex(360deg); }
+
+.t4 {
+  background-color: #f6bc4f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px; }
+  .t4 img {
+    width: 250px;
+    height: 250px; }
+  .t4 div {
+    width: 500px;
+    text-align: center;
+    transition: 2s; }
+    .t4 div:hover {
+      transform: rotatex(360deg); }
+
+.t5 {
+  background-color: #e4a6b0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px; }
+  .t5 img {
+    width: 250px;
+    height: 250px; }
+  .t5 div {
+    width: 500px;
+    text-align: center;
+    transition: 2s; }
+    .t5 div:hover {
+      transform: rotatex(360deg); }
+
+/*----GALERIA----*/
+.tamano-galeria {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.grid-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 10px; }
+  .grid-galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    transition: 1.3s; }
+    .grid-galeria div img:hover {
+      transform: scale(1.05); }
+
+.galeria h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100px; }
+
+.img1 {
+  grid-row: span 2; }
+
+.img10 {
+  grid-column: span 2; }
+
+.img9 {
+  grid-row: span 2; }
+
+/*----QUIENES SOMOS----*/
+.margenes-quienessomos {
+  height: 1300px; }
+
+.fondo-quienessomos {
+  transition: 1.7s; }
+  .fondo-quienessomos:hover {
+    transform: translatex(-70%);
+    color: #c7e9e3;
+    background-color: #d9d9d9;
+    color: #212529; }
+
+main video {
+  position: fixed;
+  min-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translatex(-50%) translateY(-50%);
+  z-index: -1; }
+
+.container-quienessomos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 15px;
+  width: 1800px; }
+  .container-quienessomos div {
+    height: 650px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 800px;
+    text-align: center;
+    color: #c3c3c3;
+    border-radius: 25px; }
+    .container-quienessomos div h2 {
+      text-decoration: underline; }
+
+/*----CONTACTO----*/
+.contactanos {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 45px;
+  color: #212529;
+  font-size: 35px;
+  text-shadow: 7px 3px 6px rgba(0, 0, 0, 0.44);
+  animation-name: contactanos-titulo;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: initial;
+  animation-delay: 0.5s; }
+
+@keyframes contactanos-titulo {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+.container-contacto {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 320px;
+  margin-right: 10px;
+  background-color: rgba(120, 119, 81, 0.5);
+  border-radius: 15px;
+  box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+  -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+  -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88); }
+  .formulario form div label {
+    font-size: large; }
+  .formulario form div input {
+    width: 500px;
+    height: 55px;
+    background-color: #f5f5f5;
+    margin-bottom: 18px;
+    letter-spacing: 0.1ex;
+    text-transform: uppercase;
+    text-indent: 0.5em; }
+
+.tumensaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 320px;
+  margin-left: 10px;
+  background-color: rgba(120, 119, 81, 0.5);
+  border-radius: 15px;
+  box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+  -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+  -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88); }
+  .tumensaje div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+    height: auto; }
+    .tumensaje div textarea {
+      background-color: #f5f5f5;
+      height: 200px;
+      letter-spacing: 0.1ex;
+      text-transform: uppercase;
+      text-indent: 0.2em;
+      margin-top: 40px; }
+    .tumensaje div input {
+      margin-top: 15px;
+      width: 150px;
+      height: 45px;
+      text-align: center;
+      background-color: #fbb034; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 100%;
+  background-color: #212529;
+  bottom: 0;
+  margin-top: 10px;
+  border: 1px solid black; }
+  .footer h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px; }
+
+footer section p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center; }
+
+.redes {
+  display: flex;
+  justify-content: center; }
+  .redes img {
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+    padding: 10px; }
+
 /*----MEDIAQUERY----*/
 @media screen and (max-width: 1126px) {
   header nav div a {
