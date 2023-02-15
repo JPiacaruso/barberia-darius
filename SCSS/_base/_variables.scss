@@ -1,0 +1,95 @@
+//* VARIABLES
+
+$color-principal: #f6d365;
+$color-secundario:#C9CCD3;
+$color-terciario: black;
+
+//* LISTAS
+// (Servicios)
+
+$colores:
+rgb(246, 154, 121),
+rgb(213, 171, 254),
+rgb(132, 137, 225),
+#f6d365,
+aliceblue,
+rgb(228, 166, 176);
+
+$font-size:
+12px,
+16px,
+20px,
+25px,
+55px;
+
+h1{
+    font-size: nth($font-size, 5);
+}
+
+.hero h1{
+    color: nth($colores, 5);
+} 
+
+//* MAPA
+
+$boton:(
+
+bg-boton: #f6d365,
+color-boton: #191b1c,
+alto-boton: 97%,
+);
+
+.boton{
+    background-color: map-get($boton, bg-boton);
+    color: nth($colores , 2);
+    height: map-get($boton , alto-boton);
+}
+
+//* EXTENDS
+
+// %PLACEHOLDER
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 {
+    height: 840px;
+    @extend %flex;
+}
+
+.seccion2-derecha {
+    width: 50%;
+    height: 840px;
+    @extend %flex;
+}
+
+//* MIXINGS
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.t1{
+    @include flex (flex, space-around, center)
+}
+
+.t2{
+    @include flex (flex, space-around, center)
+}
+
+.t3{
+    @include flex (flex, space-around, center)
+}
+
+.t4{
+    @include flex (flex, space-around, center)
+}
+
+.t5{
+    @include flex (flex, space-around, center)
+}

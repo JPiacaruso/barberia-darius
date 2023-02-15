@@ -9,6 +9,54 @@
   padding: 0;
   box-sizing: border-box; }
 
+h1 {
+  font-size: 55px; }
+
+.hero h1 {
+  color: aliceblue; }
+
+.boton {
+  background-color: #f6d365;
+  color: #d5abfe;
+  height: 97%; }
+
+.section2, .seccion2-derecha {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section2 {
+  height: 840px; }
+
+.seccion2-derecha {
+  width: 50%;
+  height: 840px; }
+
+.t1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.t2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.t3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.t4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.t5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
 /*----HEADER----*/
 header nav div a {
   font-size: x-large;
@@ -457,6 +505,31 @@ footer section p {
     padding: 10px; }
 
 /*----MEDIAQUERY----*/
+@media screen and (max-width: 1491px) {
+  .contactanos {
+    margin-top: 70px;
+    font-size: 27px; }
+  .formulario {
+    width: 25%;
+    height: 290px;
+    margin-right: 10px; }
+    .formulario form div input {
+      width: 200px;
+      height: 34px;
+      margin-bottom: 14px;
+      letter-spacing: 0.1ex;
+      text-indent: 0.3em; }
+  .tumensaje {
+    width: 25%;
+    height: 290px;
+    margin-left: 10px; }
+    .tumensaje div {
+      width: 75%; }
+      .tumensaje div input {
+        margin-top: 15px;
+        width: 75px;
+        height: 30px; } }
+
 @media screen and (max-width: 1126px) {
   header nav div a {
     font-size: 25px;
@@ -479,8 +552,7 @@ footer section p {
   .seccion2-izquierda {
     width: 50%;
     height: 820px; }
-  .seccion2-derecha
-img {
+  .seccion2-derecha img {
     width: 80%;
     height: 810px; } }
 
@@ -540,7 +612,34 @@ img {
   .img1 {
     grid-row: span 2; }
   .img6 {
-    grid-row: span 2; } }
+    grid-row: span 2; }
+  .formulario {
+    width: 25%;
+    height: 240px;
+    margin-right: 10px; }
+    .formulario form div input {
+      width: 140px;
+      height: 22px;
+      margin-bottom: 10px;
+      letter-spacing: 0.05ex;
+      text-indent: 0.2em;
+      font-size: 10px; }
+  .tumensaje {
+    width: 25%;
+    height: 240px;
+    margin-left: 10px; }
+    .tumensaje div textarea {
+      height: 100px;
+      letter-spacing: 0.1ex;
+      text-transform: uppercase;
+      text-indent: 0.2em;
+      margin-top: 40px;
+      font-size: 10px; }
+    .tumensaje div input {
+      margin-top: 15px;
+      width: 55px;
+      height: 25px;
+      font-size: 10px; } }
 
 @media screen and (max-width: 699px) {
   header nav ul {
@@ -601,10 +700,39 @@ img {
   .seccion2-derecha {
     height: 530px;
     width: 50%; }
-  .seccion2-derecha
-img {
+  .seccion2-derecha img {
     width: 80%;
     height: 525px; } }
+
+@media screen and (max-width: 627px) {
+  .formulario {
+    width: 20%;
+    height: 160px;
+    margin-right: 10px; }
+    .formulario form div input {
+      width: 60px;
+      height: 15px;
+      margin-bottom: 5px;
+      letter-spacing: 0.05ex;
+      text-indent: 0.2em;
+      font-size: 10px; }
+  .tumensaje {
+    width: 20%;
+    height: 160px;
+    margin-left: 10px; }
+    .tumensaje div textarea {
+      height: 80px;
+      letter-spacing: 0.1ex;
+      text-transform: uppercase;
+      text-indent: 0.2em;
+      margin-top: 40px;
+      font-size: 10px; }
+    .tumensaje div input {
+      margin-top: 10px;
+      width: 45px;
+      height: 20px;
+      font-size: 10px;
+      text-align: center; } }
 
 @media screen and (max-width: 503px) {
   .nuestrabarberia img {
@@ -652,7 +780,21 @@ img {
   .footer h2 {
     font-size: large; }
   .footer p {
-    font-size: medium; } }
+    font-size: medium; }
+  .contactanos {
+    margin-top: 70px;
+    font-size: 22px; }
+  .formulario {
+    width: 25%;
+    margin: 20px; }
+  .tumensaje {
+    width: 25%;
+    margin: 20px; }
+  .container-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; } }
 
 @media screen and (max-width: 450px) {
   .grid-galeria {

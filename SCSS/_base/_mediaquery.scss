@@ -1,7 +1,44 @@
 /*----MEDIAQUERY----*/
 
-@media screen and (max-width:1126px) {
+@media screen and (max-width:1491px){
+.contactanos {
+    margin-top: 70px;
+    font-size: 27px;
+}
 
+.formulario {
+    width: 25%;
+    height: 290px;
+    margin-right: 10px;
+    form{
+        div{
+            input{
+                width: 200px;
+                height: 34px;
+                margin-bottom: 14px;
+                letter-spacing: 0.1ex;
+                text-indent: 0.3em;  
+            }
+        }
+    }
+}
+    
+.tumensaje {
+    width: 25%;
+    height: 290px;
+    margin-left: 10px;
+    div{
+        width: 75%;
+        input{
+            margin-top: 15px;
+            width: 75px;
+            height: 30px;
+        }
+    }
+}
+}
+
+@media screen and (max-width:1126px) {
     header{
         nav{
             div{
@@ -166,6 +203,46 @@
         grid-row: span 2;
     }
 
+.formulario{
+    width: 25%;
+    height: 240px;
+    margin-right: 10px;
+    form{
+        div{
+            input{
+                width: 140px;
+                height: 22px;
+                margin-bottom: 10px;
+                letter-spacing: 0.05ex;
+                text-indent: 0.2em;
+                font-size: 10px   
+            }
+        }
+    }
+}
+
+.tumensaje{
+    width: 25%;
+    height: 240px;
+    margin-left: 10px;
+    div{
+        textarea{
+            height: 100px;
+            letter-spacing: 0.1ex;
+            text-transform: uppercase;
+            text-indent: 0.2em;
+            margin-top: 40px;
+            font-size: 10px
+        }
+        input{
+            margin-top: 15px;
+            width: 55px;
+            height: 25px;
+            font-size: 10px; 
+        }
+    }
+}
+
 }
 
 
@@ -300,6 +377,50 @@
         }
     }
 
+@media screen and (max-width: 627px) {  
+.formulario{
+    width: 20%;
+    height: 160px;
+    margin-right: 10px;
+    form{
+        div{
+            input{
+                width: 60px;
+                height: 15px;
+                margin-bottom: 5px;
+                letter-spacing: 0.05ex;
+                text-indent: 0.2em;
+                font-size: 10px 
+            }
+        }
+    }
+}
+
+.tumensaje{
+    width: 20%;
+    height: 160px;
+    margin-left: 10px;
+    div{
+        textarea{
+            height: 80px;
+            letter-spacing: 0.1ex;
+            text-transform: uppercase;
+            text-indent: 0.2em;
+            margin-top: 40px;
+            font-size: 10px
+        }
+        input{
+            margin-top: 10px;
+            width: 45px;
+            height: 20px;
+            font-size: 10px;
+            text-align: center;
+        }
+    }
+}
+
+}
+
 @media screen and (max-width: 503px) {
 
     .nuestrabarberia{
@@ -387,6 +508,27 @@
         }
     }
 
+.contactanos {
+    margin-top: 70px;
+    font-size: 22px;
+}
+    
+.formulario{
+    width: 25%;
+    margin: 20px;
+}
+    
+.tumensaje{
+    width: 25%;
+    margin: 20px;
+}
+    
+.container-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 }
 
 @media screen and (max-width: 450px) {
