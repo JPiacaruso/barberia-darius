@@ -233,6 +233,14 @@ body {
     text-align: center;
     font-family: 'Roboto Mono', monospace; }
 
+.mediaquery-servicios {
+  max-width: 1400px;
+  margin: 0 auto; }
+  .mediaquery-servicios h1 {
+    margin: 20px;
+    font-size: 35px;
+    text-align: center; }
+
 .t1 {
   background-color: #8489e1;
   display: flex;
@@ -528,7 +536,14 @@ footer section p {
       .tumensaje div input {
         margin-top: 15px;
         width: 75px;
-        height: 30px; } }
+        height: 30px; }
+  .mediaquery-servicios {
+    max-width: 1400px;
+    margin: 0 auto; }
+    .mediaquery-servicios h1 {
+      margin: 20px;
+      font-size: 30px;
+      text-align: center; } }
 
 @media screen and (max-width: 1126px) {
   header nav div a {
@@ -554,7 +569,14 @@ footer section p {
     height: 820px; }
   .seccion2-derecha img {
     width: 80%;
-    height: 810px; } }
+    height: 810px; }
+  .mediaquery-servicios {
+    max-width: 1400px;
+    margin: 0 auto; }
+    .mediaquery-servicios h1 {
+      margin: 20px;
+      font-size: 25px;
+      text-align: center; } }
 
 @media screen and (max-width: 976px) {
   .hero {
@@ -640,6 +662,80 @@ footer section p {
       width: 55px;
       height: 25px;
       font-size: 10px; } }
+
+@media screen and (max-width: 783px) {
+  .mediaquery-servicios {
+    max-width: 1400px;
+    margin: 0 auto; }
+    .mediaquery-servicios h1 {
+      margin: 20px;
+      font-size: 19px;
+      text-align: center; }
+  .t1 {
+    margin: 12px; }
+    .t1 img {
+      width: 150px;
+      height: 200px; }
+    .t1 div {
+      width: 400px;
+      height: 200px;
+      padding-top: 9%; }
+      .t1 div h2 {
+        font-size: 25px; }
+      .t1 div p {
+        font-size: 15px; }
+  .t2 {
+    margin: 12px; }
+    .t2 img {
+      width: 150px;
+      height: 200px; }
+    .t2 div {
+      width: 400px;
+      height: 200px;
+      padding-top: 7%; }
+      .t2 div h2 {
+        font-size: 25px; }
+      .t2 div p {
+        font-size: 15px; }
+  .t3 {
+    margin: 12px; }
+    .t3 img {
+      width: 150px;
+      height: 200px; }
+    .t3 div {
+      width: 400px;
+      height: 200px;
+      padding-top: 9%; }
+      .t3 div h2 {
+        font-size: 25px; }
+      .t3 div p {
+        font-size: 15px; }
+  .t4 {
+    margin: 12px; }
+    .t4 img {
+      width: 150px;
+      height: 200px; }
+    .t4 div {
+      width: 400px;
+      height: 200px;
+      padding-top: 5%; }
+      .t4 div h2 {
+        font-size: 25px; }
+      .t4 div p {
+        font-size: 15px; }
+  .t5 {
+    margin: 12px; }
+    .t5 img {
+      width: 150px;
+      height: 200px; }
+    .t5 div {
+      width: 400px;
+      height: 200px;
+      padding-top: 7%; }
+      .t5 div h2 {
+        font-size: 25px; }
+      .t5 div p {
+        font-size: 15px; } }
 
 @media screen and (max-width: 699px) {
   header nav ul {
@@ -734,7 +830,7 @@ footer section p {
       font-size: 10px;
       text-align: center; } }
 
-@media screen and (max-width: 503px) {
+@media screen and (max-width: 505px) {
   .nuestrabarberia img {
     width: 220px;
     height: 110px;
@@ -792,9 +888,106 @@ footer section p {
     margin: 20px; }
   .container-contacto {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .margenes-servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .mediaquery-servicios {
+    max-width: 1400px;
+    margin: 0 auto; }
+    .mediaquery-servicios h1 {
+      margin: 20px;
+      font-size: 19px; }
+  .t1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px; }
+    .t1 img {
+      width: 200px;
+      height: 300px; }
+    .t1 div {
+      width: 200px;
+      height: 300px;
+      padding-top: 0%; }
+      .t1 div h2 {
+        font-size: 22px;
+        padding-top: 15px; }
+      .t1 div p {
+        font-size: 8px; }
+  .t2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px; }
+    .t2 img {
+      width: 200px;
+      height: 300px; }
+    .t2 div {
+      width: 200px;
+      height: 300px;
+      padding-top: 0%; }
+      .t2 div h2 {
+        font-size: 22px; }
+      .t2 div p {
+        font-size: 8px; }
+  .t3 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px; }
+    .t3 img {
+      width: 200px;
+      height: 250px; }
+    .t3 div {
+      width: 200px;
+      height: 300px;
+      padding-top: 0%; }
+      .t3 div h2 {
+        font-size: 22px; }
+      .t3 div p {
+        font-size: 8px; }
+  .t4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px; }
+    .t4 img {
+      width: 200px;
+      height: 300px; }
+    .t4 div {
+      width: 200px;
+      height: 300px;
+      padding-top: 0%; }
+      .t4 div h2 {
+        font-size: 22px;
+        text-align: center; }
+      .t4 div p {
+        font-size: 8px; }
+  .t5 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px; }
+    .t5 img {
+      width: 200px;
+      height: 300px; }
+    .t5 div {
+      width: 200px;
+      height: 300px;
+      padding-top: 0%; }
+      .t5 div h2 {
+        font-size: 22px; }
+      .t5 div p {
+        font-size: 8px; } }
 
 @media screen and (max-width: 450px) {
   .grid-galeria {

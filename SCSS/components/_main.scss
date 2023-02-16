@@ -196,6 +196,16 @@ body {
         }
     }
 
+    .mediaquery-servicios{
+        max-width: 1400px;
+        margin: 0 auto;
+        h1 {
+        margin: 20px;
+        font-size: 35px;
+        text-align: center;
+        }
+    }
+
 .t1 {
     background-color: rgb(132, 137, 225);
     display: flex;
