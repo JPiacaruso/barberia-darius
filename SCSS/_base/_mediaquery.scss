@@ -1,6 +1,50 @@
 /*----MEDIAQUERY----*/
 
+@media screen and (max-width:1571px){
+
+main{
+    video{
+        position: fixed;
+        min-width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translatex(-50%) translateY(-50%);
+        z-index: -1;
+    }
+}
+
+.fondo-quienessomos{
+    &:hover{
+        transform: translatex(-60%);
+    }
+}
+
+
+.container-quienessomos{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    padding-right: 1em;
+    width: 100%;
+    height: 560px;
+    div{
+        height: 550px;
+        width: 370px;
+        h2{
+            font-size: 20px;
+            margin-bottom: 1em;
+            margin-top: 0.5em;
+        }
+        p{
+            margin-top: 0.5em;
+            font-size: 11px;
+        }
+    }
+}
+}
+
 @media screen and (max-width:1491px){
+
 .contactanos {
     margin-top: 70px;
     font-size: 27px;
@@ -13,7 +57,7 @@
     form{
         div{
             input{
-                width: 200px;
+                width: 270px;
                 height: 34px;
                 margin-bottom: 14px;
                 letter-spacing: 0.1ex;
@@ -49,6 +93,57 @@
 
 }
 
+@media screen and (max-width:1351px) {
+
+    .grid-precios {
+        width: 85%;
+        height: 610px;
+        div{
+            h2{
+                font-size: 20px;
+                color: rgb(0, 0, 0); 
+            }
+            h3{
+                font-size: 20px;
+            }
+        }
+    }
+    
+    .seccion2-derecha {
+        width: 50%;
+        height: 840px;
+        img{
+            width: 80%;
+            height: 600px;
+        }
+    }
+
+    .section2 {
+        height: 630px;
+    }
+
+.nuestrabarberia{
+    img{
+    width: 210px;
+    height: 160px;
+    margin: 10px;
+    }
+}
+
+}
+
+@media screen and (max-width:1191px) {
+    .formulario {
+        form{
+            div{
+                input{
+                    width: 235px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width:1126px) {
     header{
         nav{
@@ -75,24 +170,14 @@
         height: 90%;
     }
 
-    .section2-h2 {
-        text-align: center;
-        margin: 20px;
-        padding: 10px;
-        text-align: center;
-        font-size: 30px;
-        border: 1px solid black;
-    }
-
-    .seccion2-izquierda {
-        width: 50%;
-        height: 820px;
-    }
-
-    .seccion2-derecha {
-        img {
-        width: 80%;
-        height: 810px;
+    .hero{
+        h1{
+            font-size: 40px;
+        }
+        div{
+            p{
+                font-size: 17px;
+            }
         }
     }
 
@@ -107,19 +192,12 @@
     }
 }
 
-@media screen and (max-width: 976px) {
-
-    .hero {
-        height: 80%;
-    }
-
+@media screen and (max-width:1049px) {
     .hero{
-        h2{
-        font-size: 40px;
-        }
-    }
-
-    .hero{
+        height: 70%;
+        h1{
+            font-size: 35px;
+            }
         div{
             p{
             font-weight: 600px;
@@ -130,77 +208,109 @@
 
     .nuestrabarberia{
         img{
-        width: 300px;
-        height: 200px;
+        width: 160px;
+        height: 110px;
         margin: 10px;
         }
     }
 
+    .fotosbarberia{
+        p{
+            font-size: 13px;
+        }
+        h3{
+            font-size: 22px;
+        }
+    }
+    .section2-h2 {
+        height: 50px;
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 100px;
+    }
+
     .grid-precios {
-        height: 600px;
-    }
-
-    .grid-precios{
+        width: 80%;
+        height: 500px;
         div{
-        height: 65px;
-        }
-    }
-
-    .grid-precios{
-        div{
-            h3{
-            font-size: 18px;
-            }
-        }
-    }
-
-    .grid-precios{
-        div{
+            height: 52px;
             h2{
-            font-size: 18px;
+                font-size: 15px;
+                color: rgb(0, 0, 0); 
+            }
+            h3{
+                font-size: 10px;
             }
         }
     }
-
-    .section2 {
-        height: 610px;
+    
+    .seccion2-derecha {
+        width: 50%;
+        height: 550px;
+        img{
+            width: 80%;
+            height: 490px;
+        }
     }
 
     .seccion2-izquierda {
-        height: 600px;
         width: 50%;
+        height: 550px;
     }
 
-    .seccion2-derecha {
-        height: 600px;
-        width: 50%;
+    .section2 {
+        height: 550px;
     }
 
-    .seccion2-izquierda{
+}
+
+@media screen and (max-width: 976px) {
+
+    .hero{
+        height: 70%;
+        h1{
+            font-size: 35px;
+            }
         div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 350px;
-        height: 67px;
+            p{
+            font-weight: 600px;
+            font-size: 17px;
+            margin-bottom: 50px;
+            }
         }
     }
 
-    .section2-h2 {
-        text-align: center;
-        margin: 20px;
-        padding: 10px;
-        text-align: center;
-        font-size: 25px;
-        border: 1px solid black;
-    }
-
-    .seccion2-derecha{
-        img{
+    .grid-precios {
         width: 80%;
-        height: 605px;
+        height: 370px;
+        div{
+            height: 36px;
+            h2{
+                font-size: 15px;
+                color: rgb(0, 0, 0); 
+            }
+            h3{
+                font-size: 10px;
+            }
         }
+    }
+    
+    .seccion2-derecha {
+        width: 60%;
+        height: 370px;
+        img{
+            width: 80%;
+            height: 370px;
+        }
+    }
+
+    .seccion2-izquierda {
+        width: 60%;
+        height: 400px;
+    }
+
+    .section2 {
+        height: 450px;
     }
 
     .grid-galeria {
@@ -232,7 +342,7 @@
     form{
         div{
             input{
-                width: 140px;
+                width: 180px;
                 height: 22px;
                 margin-bottom: 10px;
                 letter-spacing: 0.05ex;
@@ -264,6 +374,17 @@
         }
     }
 }
+
+}
+
+@media screen and (max-width: 847px){
+    .nuestrabarberia{
+        img{
+        width: 120px;
+        height: 80px;
+        margin: 5px;
+        }
+    }
 
 }
 
@@ -370,11 +491,20 @@
             }
         }
     }
+    .formulario{
+        form{
+            div{
+                input{
+                    width: 140px;
+                }
+            }
+        }
+    }
 
 }
 
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 705px) {
     
     header{
         nav{
@@ -396,21 +526,15 @@
         }
     }
 
-    .hero {
+    .hero{
         width: 100%;
-        height: 70%;
-    }
-
-    .hero{
-        h2{
-        font-size: 35px;
-        font-weight: 90px;
-        margin-top: 125px;
-        padding: 15px;
-        }
-    }
-
-    .hero{
+        height: 50%;
+        h1{
+            font-size: 35px;
+            font-weight: 90px;
+            margin-top: 125px;
+            padding: 15px;
+            }
         div{
             p{
             font-weight: 600px;
@@ -426,168 +550,170 @@
         h3{
         margin-top: 10px;
         margin-left: 0%;
-        font-size: 20px;
+        font-size: 17px;
         }
     }
 
     .fotosbarberia{
         p {
-        font-size: 13px;
+        font-size: 11px;
         }
     }
 
-    .grid-precios {
-        display: grid;
-        align-items: center;
-        height: 500px;
+    .seccion2-izquierda {
+        width: 50%;
+        height: 20px;
+
+        
     }
 
     .grid-precios{
-        div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 55px;
-        }
-    }
-
-    .grid-precios{
+        width: 80%;
+        height: 430px;
         div{
+            height: 33px;
             h2{
-            font-size: 16px;
+            font-size: 12px;
             }
-        }
-    }
-
-    .grid-precios{
-        div{
             h3{
-            font-size: 15px;
-            padding-top: 8px;
+                font-size: 9px;
             }
         }
     }
 
     .section2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 530px;
-        width: 100%;
+        height: 450px;
     }
 
-    .seccion2-izquierda {
+    .seccion2-derecha{
+        height: 400px;
+        width: 50%;
+        img {
+        width: 80%;
+        height: 350px;
+        }
+    }
+
+    .container-contacto {
+        height: 500px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 530px;
+        margin-bottom: 2em;
     }
 
-    .seccion2-izquierda{
+    .formulario {
+        margin-right: 0px;
+        margin-bottom: 1em;
+}
+
+    .tumensaje {
+        margin-left: 0px;
+        margin-top: 1em;
+}
+
+.contactanos {
+    margin: 1em;
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 627px) { 
+
+    .hero{
+        width: 100%;
+        height: 40%;
+        h1{
+            font-size: 28px;
+            font-weight: 90px;
+            margin-top: 125px;
+            padding: 15px;
+            }
         div{
-        width: 250px;
-        height: 57px;
+            p{
+            font-size: 12px;
+            }
         }
     }
 
+    .fondo-quienessomos{
+        &:hover{
+            transform: translatex(-30%);
+        }
+    }
+    
 
-    .seccion2-derecha {
-        height: 530px;
-        width: 50%;
+    .grid-precios{
+        width: 80%;
+        height: 600px;
+        div{
+            height: 25px;
+            h2{
+            font-size: 10px;
+            }
+            h3{
+                font-size: 8px;
+            }
+        }
     }
 
-    .seccion2-derecha
+    .section2 {
+        height: 400px;
+    }
+
+    .seccion2-derecha{
+        height: 400px;
+        width: 50%;
         img {
         width: 80%;
-        height: 525px;
+        height: 300px;
         }
     }
 
-@media screen and (max-width: 627px) {  
+
+.nuestrabarberia{
+    img{
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    }
+}
+
 .formulario{
-    width: 20%;
-    height: 160px;
-    margin-right: 10px;
     form{
         div{
             input{
-                width: 60px;
-                height: 15px;
-                margin-bottom: 5px;
-                letter-spacing: 0.05ex;
-                text-indent: 0.2em;
-                font-size: 10px 
+                width: 100px;
             }
         }
     }
 }
 
-.tumensaje{
-    width: 20%;
-    height: 160px;
-    margin-left: 10px;
-    div{
-        textarea{
-            height: 80px;
-            letter-spacing: 0.1ex;
-            text-transform: uppercase;
-            text-indent: 0.2em;
-            margin-top: 40px;
-            font-size: 10px
-        }
-        input{
-            margin-top: 10px;
-            width: 45px;
-            height: 20px;
-            font-size: 10px;
-            text-align: center;
-        }
-    }
 }
 
-}
-
-@media screen and (max-width: 505px) {
-
-    .nuestrabarberia{
-        img{
-        width: 220px;
-        height: 110px;
-        margin: 10px;
-        }
-    }
+@media screen and (max-width: 507px) {
 
     .hero{
-        h2{
+        h1{
         font-size: 25px;
         font-weight: 90px;
         margin-top: 85px;
         padding: 10px;
         }
     }
-
-    .hero {
-        height: 55%;
-    }
-
-    .section2-h2 {
-        text-align: center;
-        margin: 20px;
-        padding: 10px;
-        text-align: center;
-        font-size: 15px;
-        border: 1px solid black;
-    }
-
-    .hero{
-        div{
-            p{
-            font-weight: 600px;
-            font-size: 13px;
+    
+    .nuestrabarberia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 140px;
+            height: 100px;
+            margin: 10px;
             }
-        }
     }
     
 
@@ -596,65 +722,75 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
         width: 100%;
+        height: auto;
     }
 
     .seccion2-izquierda {
         width: 50%;
-        margin-top: 10px;
+        height: 600px;
+        text-align: center;
+        margin: 2px;
+        padding: 2px;
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .seccion2-derecha {
-        width: 50%;
-        border-radius: 0%;
-        margin-top: 10px;
-        margin-bottom: 5px;
+        width:300px;
+        height: 300px;
     }
 
-    .seccion2-derecha{
-        img{
-        width: 340px;
-        height: 100%;
-        border-radius: 0%;
+    .grid-precios{
+        div{
+            height: 60px;
+            width: 300px;
+            h2{
+                font-size: 14px;
+                }
+            h3{
+                font-size: 12px;
+                }
         }
     }
 
-    .footer{
-        width: 350;
+    .margen-section1{
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
 
-    .footer{
-        h2{
-        font-size: large;
+    .container-contacto {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .formulario {
+        margin-right: 0px;
+        margin-bottom: 1em;
+        width: 25%;
+        margin: 20px;
+}
+
+    .tumensaje {
+        margin-left: 0px;
+        margin-top: 1em;
+        width: 25%;
+        margin: 20px;
         }
-    }
 
-    .footer{
-        p{
-        font-size: medium;
-        }
-    }
-
-.contactanos {
-    margin-top: 70px;
-    font-size: 22px;
-}
-    
-.formulario{
-    width: 25%;
-    margin: 20px;
-}
-    
-.tumensaje{
-    width: 25%;
-    margin: 20px;
-}
-    
-.container-contacto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .contactanos {
+        margin: 1em;
+        font-size: 25px;
 }
 
 .margenes-servicios {
@@ -788,11 +924,31 @@
     }
 }
 
+.footer{
+    width: 350;
+}
 
+.footer{
+    h2{
+    font-size: large;
+    }
+}
 
+.footer{
+    p{
+    font-size: medium;
+    }
+}
 }
 
 @media screen and (max-width: 450px) {
+
+    .fondo-quienessomos{
+        &:hover{
+            transform: translatex(-6%);
+        }
+    }
+
     .grid-galeria {
         grid-template-columns: 1fr;
         grid-template-rows: 220px;
@@ -811,6 +967,15 @@
         grid-row: span 1;
     }
 
+    .formulario{
+        form{
+            div{
+                input{
+                    width: 80px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 410px) {
@@ -818,5 +983,4 @@
         flex-direction: column;
         text-align: center;
     }
-
 }
