@@ -540,7 +540,7 @@ footer section p {
 @media screen and (max-width: 1571px) {
   main video {
     position: fixed;
-    min-height: 100%;
+    min-width: 100%;
     top: 50%;
     left: 50%;
     transform: translatex(-50%) translateY(-50%);
@@ -552,9 +552,8 @@ footer section p {
     align-items: center;
     margin-right: 15px;
     padding-right: 1em;
-    width: 97%;
-    height: 560px;
-    background-color: aqua; }
+    width: 100%;
+    height: 560px; }
     .container-quienessomos div {
       height: 550px;
       width: 370px;
@@ -568,8 +567,17 @@ footer section p {
         font-size: 11px; } }
 
 @media screen and (max-width: 1491px) {
+  .container-quienessomos {
+    margin-right: 0.7px;
+    padding-right: 0.7em;
+    width: 95%;
+    height: 560px; }
+    .container-quienessomos div {
+      height: 550px;
+      width: 340px;
+      margin-right: 0em; }
   .fondo-quienessomos:hover {
-    transform: translatex(-30%); }
+    transform: translatex(-50%); }
   .contactanos {
     margin-top: 70px;
     font-size: 27px; }
@@ -634,15 +642,15 @@ footer section p {
     width: 235px; } }
 
 @media screen and (max-width: 1126px) {
-  header nav div a {
-    font-size: 25px;
-    margin: 2px;
-    text-align: center; }
   header nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    header nav div a {
+      font-size: 25px;
+      margin: 2px;
+      text-align: center; }
   .hero h1 {
     font-size: 40px; }
   .hero div p {
@@ -852,6 +860,8 @@ footer section p {
     text-align: center; }
     header nav ul li {
       margin: 7px; }
+  .fondo-quienessomos:hover {
+    transform: translatex(-40%); }
   .hero h1 {
     font-size: 35px;
     font-weight: 90px;
@@ -916,7 +926,7 @@ footer section p {
   .hero div p {
     font-size: 12px; }
   .fondo-quienessomos:hover {
-    transform: translatex(-20%); }
+    transform: translatex(-15%); }
   .grid-precios {
     width: 80%;
     height: 600px; }
@@ -946,61 +956,49 @@ footer section p {
     font-size: 25px;
     font-weight: 90px;
     margin-top: 85px;
-    padding: 10px; } }
-
-.container-quienessomos {
-  margin-right: 1px;
-  padding-right: 1em;
-  width: 98%;
-  height: 560px; }
-  .container-quienessomos div {
-    height: 550px;
-    width: 370px;
-    margin-right: 0em; }
-  .container-quienessomos .fondo-quienessomos:hover {
-    transform: translatex(-10%); }
-  .container-quienessomos .nuestrabarberia {
+    padding: 10px; }
+  .nuestrabarberia {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .container-quienessomos .nuestrabarberia img {
+    .nuestrabarberia img {
       width: 140px;
       height: 100px;
       margin: 10px; }
-  .container-quienessomos .section2 {
+  .section2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: auto; }
-  .container-quienessomos .seccion2-izquierda {
+  .seccion2-izquierda {
     width: 50%;
     height: 600px;
     text-align: center;
     margin: 2px;
     padding: 2px; }
-    .container-quienessomos .seccion2-izquierda div {
+    .seccion2-izquierda div {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-  .container-quienessomos .seccion2-derecha {
+  .seccion2-derecha {
     width: 300px;
     height: 300px; }
-  .container-quienessomos .grid-precios div {
+  .grid-precios div {
     height: 60px;
     width: 300px; }
-    .container-quienessomos .grid-precios div h2 {
+    .grid-precios div h2 {
       font-size: 14px; }
-    .container-quienessomos .grid-precios div h3 {
+    .grid-precios div h3 {
       font-size: 12px; }
-  .container-quienessomos .margen-section1 {
+  .margen-section1 {
     margin-top: 20px;
     margin-left: 60px;
     margin-right: 60px; }
-  .container-quienessomos .container-contacto {
+  .container-contacto {
     height: 500px;
     width: 100%;
     display: flex;
@@ -1008,123 +1006,123 @@ footer section p {
     justify-content: center;
     align-items: center;
     margin-bottom: 2em; }
-  .container-quienessomos .formulario {
+  .formulario {
     margin-right: 0px;
     margin-bottom: 1em;
     width: 25%;
     margin: 20px; }
-  .container-quienessomos .tumensaje {
+  .tumensaje {
     margin-left: 0px;
     margin-top: 1em;
     width: 25%;
     margin: 20px; }
-  .container-quienessomos .contactanos {
+  .contactanos {
     margin: 1em;
     font-size: 25px; }
-  .container-quienessomos .margenes-servicios {
+  .margenes-servicios {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center; }
-  .container-quienessomos .mediaquery-servicios {
+  .mediaquery-servicios {
     max-width: 1400px;
     margin: 0 auto; }
-    .container-quienessomos .mediaquery-servicios h1 {
+    .mediaquery-servicios h1 {
       margin: 20px;
       font-size: 19px; }
-  .container-quienessomos .t1 {
+  .t1 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 300px; }
-    .container-quienessomos .t1 img {
+    .t1 img {
       width: 200px;
       height: 300px; }
-    .container-quienessomos .t1 div {
+    .t1 div {
       width: 200px;
       height: 300px;
       padding-top: 0%; }
-      .container-quienessomos .t1 div h2 {
+      .t1 div h2 {
         font-size: 22px;
         padding-top: 15px; }
-      .container-quienessomos .t1 div p {
+      .t1 div p {
         font-size: 8px; }
-  .container-quienessomos .t2 {
+  .t2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 300px; }
-    .container-quienessomos .t2 img {
+    .t2 img {
       width: 200px;
       height: 300px; }
-    .container-quienessomos .t2 div {
+    .t2 div {
       width: 200px;
       height: 300px;
       padding-top: 0%; }
-      .container-quienessomos .t2 div h2 {
+      .t2 div h2 {
         font-size: 22px; }
-      .container-quienessomos .t2 div p {
+      .t2 div p {
         font-size: 8px; }
-  .container-quienessomos .t3 {
+  .t3 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 300px; }
-    .container-quienessomos .t3 img {
+    .t3 img {
       width: 200px;
       height: 250px; }
-    .container-quienessomos .t3 div {
+    .t3 div {
       width: 200px;
       height: 300px;
       padding-top: 0%; }
-      .container-quienessomos .t3 div h2 {
+      .t3 div h2 {
         font-size: 22px; }
-      .container-quienessomos .t3 div p {
+      .t3 div p {
         font-size: 8px; }
-  .container-quienessomos .t4 {
+  .t4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 300px; }
-    .container-quienessomos .t4 img {
+    .t4 img {
       width: 200px;
       height: 300px; }
-    .container-quienessomos .t4 div {
+    .t4 div {
       width: 200px;
       height: 300px;
       padding-top: 0%; }
-      .container-quienessomos .t4 div h2 {
+      .t4 div h2 {
         font-size: 22px;
         text-align: center; }
-      .container-quienessomos .t4 div p {
+      .t4 div p {
         font-size: 8px; }
-  .container-quienessomos .t5 {
+  .t5 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 300px; }
-    .container-quienessomos .t5 img {
+    .t5 img {
       width: 200px;
       height: 300px; }
-    .container-quienessomos .t5 div {
+    .t5 div {
       width: 200px;
       height: 300px;
       padding-top: 0%; }
-      .container-quienessomos .t5 div h2 {
+      .t5 div h2 {
         font-size: 22px; }
-      .container-quienessomos .t5 div p {
+      .t5 div p {
         font-size: 8px; }
-  .container-quienessomos .footer {
+  .footer {
     width: 350; }
-  .container-quienessomos .footer h2 {
+  .footer h2 {
     font-size: large; }
-  .container-quienessomos .footer p {
-    font-size: medium; }
+  .footer p {
+    font-size: medium; } }
 
 @media screen and (max-width: 450px) {
   .container-quienessomos {

@@ -5,7 +5,7 @@
 main{
     video{
         position: fixed;
-        min-height: 100%;
+        min-width: 100%;
         top: 50%;
         left: 50%;
         transform: translatex(-50%) translateY(-50%);
@@ -25,9 +25,8 @@ main{
     align-items: center;
     margin-right: 15px;
     padding-right: 1em;
-    width: 97%;
+    width: 100%;
     height: 560px;
-    background-color: aqua;
     div{
         height: 550px;
         width: 370px;
@@ -47,9 +46,21 @@ main{
 
 @media screen and (max-width:1491px){
 
+    .container-quienessomos{
+        margin-right: 0.7px;
+        padding-right: 0.7em;
+        width: 95%;
+        height: 560px;
+        div{
+            height: 550px;
+            width: 340px;
+            margin-right: 0em;
+    }
+    }
+    
     .fondo-quienessomos{
         &:hover{
-            transform: translatex(-30%);
+            transform: translatex(-50%);
         }
     }
 
@@ -166,9 +177,14 @@ main{
     }
 }
 
+
 @media screen and (max-width:1126px) {
     header{
         nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             div{
                 a{
                 font-size: 25px;
@@ -179,14 +195,6 @@ main{
         }
     }
 
-    header{
-        nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
-    }
 
 
     .hero{
@@ -296,6 +304,7 @@ main{
             }
         }
     }
+    
 
     .grid-precios {
         width: 80%;
@@ -406,6 +415,7 @@ main{
 }
 
 @media screen and (max-width: 783px){
+
 
     .mediaquery-servicios{
         max-width: 1400px;
@@ -520,7 +530,6 @@ main{
 
 }
 
-
 @media screen and (max-width: 705px) {
 
     header{
@@ -534,6 +543,13 @@ main{
             }
         }
     }
+
+    
+.fondo-quienessomos{
+    &:hover{
+        transform: translatex(-40%);
+    }
+}
 
     .hero{
         h1{
@@ -645,11 +661,9 @@ main{
 
     .fondo-quienessomos{
         &:hover{
-            transform: translatex(-20%);
+            transform: translatex(-15%);
         }
     }
-
-    
 
     .grid-precios{
         width: 80%;
@@ -710,24 +724,6 @@ main{
         }
     }
 
-    }
-
-    .container-quienessomos{
-        margin-right: 1px;
-        padding-right: 1em;
-        width: 98%;
-        height: 560px;
-        div{
-            height: 550px;
-            width: 370px;
-            margin-right: 0em;
-    }
-
-    .fondo-quienessomos{
-        &:hover{
-            transform: translatex(-10%);
-        }
-}
 
     .nuestrabarberia{
         display: flex;
