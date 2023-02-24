@@ -657,6 +657,44 @@ main{
     margin: 1em;
     font-size: 25px;
 }
+.formulario{
+    width: 40%;
+    height: 240px;
+    form{
+        div{
+            input{
+                width: 180px;
+                height: 22px;
+                margin-bottom: 10px;
+                letter-spacing: 0.05ex;
+                text-indent: 0.2em;
+                font-size: 10px   
+            }
+        }
+    }
+}
+
+.tumensaje{
+    width: 40%;
+    height: 240px;
+    div{
+        textarea{
+            height: 100px;
+            letter-spacing: 0.1ex;
+            text-transform: uppercase;
+            text-indent: 0.2em;
+            margin-top: 40px;
+            font-size: 10px
+        }
+        input{
+            margin-top: 15px;
+            width: 55px;
+            height: 25px;
+            font-size: 10px; 
+        }
+    }
+}
+
 }
 
 @media screen and (max-width: 627px) { 
@@ -714,16 +752,6 @@ main{
     width: 100px;
     height: 60px;
     margin: 5px;
-    }
-}
-
-.formulario{
-    form{
-        div{
-            input{
-                width: 100px;
-            }
-        }
     }
 }
 
@@ -800,35 +828,6 @@ main{
         margin-left: 60px;
         margin-right: 60px;
     }
-
-    .container-contacto {
-        height: 500px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 2em;
-    }
-
-    .formulario {
-        margin-right: 0px;
-        margin-bottom: 1em;
-        width: 25%;
-        margin: 20px;
-}
-
-    .tumensaje {
-        margin-left: 0px;
-        margin-top: 1em;
-        width: 25%;
-        margin: 20px;
-        }
-
-    .contactanos {
-        margin: 1em;
-        font-size: 25px;
-}
 
 .margenes-servicios {
     display: flex;
@@ -976,6 +975,19 @@ main{
     font-size: medium;
     }
 }
+
+.formulario{
+    form{
+        div{
+            input{
+                width: 140px;
+                height: 22px;
+            }
+        }
+    }
+}
+
+
 }
 
 @media screen and (max-width: 450px) {
@@ -1015,23 +1027,5 @@ main{
     .img6 {
         grid-row: span 1;
     }
-
-    .formulario{
-        form{
-            div{
-                input{
-                    width: 80px;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 410px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
 
 }
