@@ -42,6 +42,69 @@ main{
         }
     }
 }
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 320px;
+    margin-right: 10px;
+    background-color: #8e8e98;
+    border-radius: 15px;
+    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98%;
+        div{
+            width: 98%;
+            label{
+                font-size: large;
+            }
+            input{
+            width: 96%;
+            height: 55px;
+            background-color: #f5f5f5;
+            margin-bottom: 18px;
+            letter-spacing: 0.1ex;
+            text-transform: uppercase;
+            text-indent: 0.5em;
+            border-radius: 0.5em;
+            }
+        }
+    }
+}
+
+.tumensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 320px;
+    div{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 98%;
+        height: auto;
+        textarea{
+            height: 200px;
+            width: 96%;
+            margin-left: 0.5em;
+        }
+        input{
+            margin-top: 15px;
+            width: 150px;
+            height: 45px;
+            margin-left: 0.5em;
+        }
+    }
+}
 }
 
 @media screen and (max-width:1491px){
@@ -68,37 +131,6 @@ main{
 .contactanos {
     margin-top: 70px;
     font-size: 27px;
-}
-
-.formulario {
-    width: 25%;
-    height: 290px;
-    margin-right: 10px;
-    form{
-        div{
-            input{
-                width: 270px;
-                height: 34px;
-                margin-bottom: 14px;
-                letter-spacing: 0.1ex;
-                text-indent: 0.3em;  
-            }
-        }
-    }
-}
-    
-.tumensaje {
-    width: 25%;
-    height: 290px;
-    margin-left: 10px;
-    div{
-        width: 75%;
-        input{
-            margin-top: 15px;
-            width: 75px;
-            height: 30px;
-        }
-    }
 }
 
 .mediaquery-servicios{
@@ -164,19 +196,6 @@ main{
 }
 
 }
-
-@media screen and (max-width:1191px) {
-    .formulario {
-        form{
-            div{
-                input{
-                    width: 235px;
-                }
-            }
-        }
-    }
-}
-
 
 @media screen and (max-width:1126px) {
     header{
@@ -377,46 +396,6 @@ main{
         grid-row: span 2;
     }
 
-.formulario{
-    width: 25%;
-    height: 240px;
-    margin-right: 10px;
-    form{
-        div{
-            input{
-                width: 180px;
-                height: 22px;
-                margin-bottom: 10px;
-                letter-spacing: 0.05ex;
-                text-indent: 0.2em;
-                font-size: 10px   
-            }
-        }
-    }
-}
-
-.tumensaje{
-    width: 25%;
-    height: 240px;
-    margin-left: 10px;
-    div{
-        textarea{
-            height: 100px;
-            letter-spacing: 0.1ex;
-            text-transform: uppercase;
-            text-indent: 0.2em;
-            margin-top: 40px;
-            font-size: 10px
-        }
-        input{
-            margin-top: 15px;
-            width: 55px;
-            height: 25px;
-            font-size: 10px; 
-        }
-    }
-}
-
 }
 
 @media screen and (max-width: 847px){
@@ -534,15 +513,6 @@ main{
             }
         }
     }
-    .formulario{
-        form{
-            div{
-                input{
-                    width: 140px;
-                }
-            }
-        }
-    }
 
 }
 
@@ -634,52 +604,53 @@ main{
     }
 
     .container-contacto {
-        height: 500px;
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-bottom: 2em;
+
     }
-
-    .formulario {
-        margin-right: 0px;
-        margin-bottom: 1em;
-}
-
-    .tumensaje {
-        margin-left: 0px;
-        margin-top: 1em;
-}
 
 .contactanos {
     margin: 1em;
     font-size: 25px;
 }
+
 .formulario{
-    width: 40%;
-    height: 240px;
+    margin-right: 0px;
+    margin-bottom: 1em;
     form{
         div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0.2em;
+            height: 60px;
+            margin: 0%;
             input{
-                width: 180px;
-                height: 22px;
-                margin-bottom: 10px;
-                letter-spacing: 0.05ex;
-                text-indent: 0.2em;
-                font-size: 10px   
+                width: 165px;
+                height: 28px;
+                margin: 0%;
+                padding: 0%;
+                font-size: 10px;
             }
         }
     }
 }
 
 .tumensaje{
-    width: 40%;
-    height: 240px;
+    margin-left: 0px;
+    margin-top: 1em;
     div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         textarea{
-            height: 100px;
+            height: 120px;
+            width: 165px;
             letter-spacing: 0.1ex;
             text-transform: uppercase;
             text-indent: 0.2em;
@@ -754,6 +725,25 @@ main{
     margin: 5px;
     }
 }
+
+.formulario{
+    form{
+        div{
+            input{
+                width: 145px;
+            }
+        }
+    }
+}
+
+.tumensaje{
+    div{
+        textarea{
+            width: 145px;
+        }
+    }
+}
+
 
 }
 
@@ -980,9 +970,16 @@ main{
     form{
         div{
             input{
-                width: 140px;
-                height: 22px;
+                width: 125px;
             }
+        }
+    }
+}
+
+.tumensaje{
+    div{
+        textarea{
+            width: 120px;
         }
     }
 }
@@ -1026,6 +1023,24 @@ main{
 
     .img6 {
         grid-row: span 1;
+    }
+
+    .formulario{
+        form{
+            div{
+                input{
+                    width: 110px;
+                }
+            }
+        }
+    }
+    
+    .tumensaje{
+        div{
+            textarea{
+                width: 100px;
+            }
+        }
     }
 
 }
