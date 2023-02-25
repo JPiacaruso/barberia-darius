@@ -800,7 +800,7 @@ main{
 .margenes-servicios {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
@@ -820,6 +820,7 @@ main{
     align-items: center;
     width: 200px;
     height: 300px;
+    margin-bottom: 0.5em;
     img {
     width: 200px;
     height: 300px;
@@ -828,12 +829,17 @@ main{
     width: 200px;
     height: 300px;
     padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
         h2{
             font-size: 22px;
-            padding-top: 15px;
+            padding-top: 10px;
         }
         p{
             font-size: 8px;
+            text-align: center;
         }
     }
 }
@@ -844,6 +850,7 @@ main{
     align-items: center;
     width: 200px;
     height: 300px;
+    margin-bottom: 0.5em;
     img {
     width: 200px;
     height: 300px;
@@ -852,11 +859,17 @@ main{
     width: 200px;
     height: 300px;
     padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
         h2{
             font-size: 22px;
+            padding-top: 10px;
         }
         p{
             font-size: 8px;
+            text-align: center;
         }
     }
 }
@@ -866,19 +879,26 @@ main{
     align-items: center;
     width: 200px;
     height: 300px;
+    margin-bottom: 0.5em;
     img {
     width: 200px;
-    height: 250px;
+    height: 300px;
     }
     div {
     width: 200px;
     height: 300px;
     padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
         h2{
             font-size: 22px;
+            padding-top: 10px;
         }
         p{
             font-size: 8px;
+            text-align: center;
         }
     }
 }
@@ -888,6 +908,7 @@ main{
     align-items: center;
     width: 200px;
     height: 300px;
+    margin-bottom: 0.5em;
     img {
     width: 200px;
     height: 300px;
@@ -896,12 +917,18 @@ main{
     width: 200px;
     height: 300px;
     padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
         h2{
             font-size: 22px;
             text-align: center;
+            padding-top: 10px;
         }
         p{
             font-size: 8px;
+            text-align: center;
         }
     }
 }
@@ -911,6 +938,7 @@ main{
     align-items: center;
     width: 200px;
     height: 300px;
+    margin-bottom: 0.5em;
     img {
     width: 200px;
     height: 300px;
@@ -919,11 +947,17 @@ main{
     width: 200px;
     height: 300px;
     padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
         h2{
             font-size: 22px;
+            padding-top: 10px;
         }
         p{
             font-size: 8px;
+            text-align: center;
         }
     }
 }
