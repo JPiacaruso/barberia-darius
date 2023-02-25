@@ -317,6 +317,7 @@ body {
     }
     div{
         width: 500px;
+        height: 500px;
         text-align: center;
     
         transition: 2s;
@@ -470,7 +471,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 30%;
     height: 320px;
     margin-right: 10px;
     background-color: #8e8e98;
@@ -502,7 +503,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 30%;
     height: 320px;
     margin-left: 10px;
     border-radius: 15px;
