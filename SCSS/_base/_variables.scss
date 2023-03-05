@@ -1,7 +1,7 @@
 //* VARIABLES
 
 $color-principal: #f6d365;
-$color-secundario:#C9CCD3;
+$color-secundario:#f1f7f9;
 $color-terciario: black;
 
 //* LISTAS
@@ -43,7 +43,8 @@ alto-boton: 97%,
     background-color: map-get($boton, bg-boton);
     color: nth($colores , 2);
     height: map-get($boton , alto-boton);
-}
+}   
+
 
 //* EXTENDS
 
