@@ -1,321 +1,419 @@
 /*----MEDIAQUERY----*/
 
-@media screen and (max-width:1571px){
+@media screen and (max-width:1571px) {
 
-main{
-    video{
-        position: fixed;
-        min-width: 100%;
-        top: 50%;
-        left: 50%;
-        transform: translatex(-50%) translateY(-50%);
-        z-index: -1;
-    }
-}
-
-.fondo-quienessomos{
-    &:hover{
-        transform: translatex(-60%);
-    }
-}
-
-
-.container-quienessomos{
-    display: flex;
-    align-items: center;
-    margin-right: 15px;
-    padding-right: 1em;
-    width: 100%;
-    height: 560px;
-    div{
-        height: 550px;
-        width: 370px;
-        margin-right: 1em;
-        h2{
-            font-size: 20px;
-            margin-bottom: 1em;
-            margin-top: 0.5em;
-        }
-        p{
-            margin-top: 0.5em;
-            font-size: 11px;
+    main {
+        video {
+            position: fixed;
+            min-width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translatex(-50%) translateY(-50%);
+            z-index: -1;
         }
     }
-}
 
-.formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 320px;
-    margin-right: 10px;
-    background-color: #8e8e98;
-    border-radius: 15px;
-    box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
-    -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
-    -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
-    form{
+    .fondoQuienessomos {
+        &:hover {
+            transform: translatex(-60%);
+        }
+    }
+
+
+    .containerQuienessomos {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        width: 98%;
-        div{
-            width: 98%;
-            label{
-                font-size: large;
+        margin-right: 15px;
+        padding-right: 1em;
+        width: 100%;
+        height: 560px;
+
+        div {
+            height: 550px;
+            width: 370px;
+            margin-right: 1em;
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 1em;
+                margin-top: 0.5em;
             }
-            input{
-            width: 96%;
-            height: 55px;
-            background-color: #f5f5f5;
-            margin-bottom: 18px;
-            letter-spacing: 0.1ex;
-            text-transform: uppercase;
-            text-indent: 0.5em;
-            border-radius: 0.5em;
+
+            p {
+                margin-top: 0.5em;
+                font-size: 11px;
             }
         }
     }
-}
 
-.tumensaje {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 320px;
-    div{
+    .formulario {
         display: flex;
         justify-content: center;
-        text-align: center;
-        width: 98%;
-        height: auto;
-        textarea{
-            height: 200px;
-            width: 96%;
-            margin-left: 0.5em;
-        }
-        input{
-            margin-top: 15px;
-            width: 150px;
-            height: 45px;
-            margin-left: 0.5em;
-        }
-    }
-}
-}
+        align-items: center;
+        width: 30%;
+        height: 320px;
+        margin-right: 10px;
+        background-color: #8e8e98;
+        border-radius: 15px;
+        box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+        -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
+        -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
 
-@media screen and (max-width:1491px){
-
-    .container-quienessomos{
-        margin-right: 0.7px;
-        padding-right: 0.7em;
-        width: 95%;
-        height: 560px;
-        div{
-            height: 550px;
-            width: 340px;
-            margin-right: 0em;
-    }
-    }
-    
-    .fondo-quienessomos{
-        &:hover{
-            transform: translatex(-50%);
-        }
-    }
-
-
-.contactanos {
-    margin-top: 70px;
-    font-size: 27px;
-}
-
-.mediaquery-servicios{
-    max-width: 1400px;
-    margin: 0 auto;
-    h1 {
-    margin: 20px;
-    font-size: 30px;
-    text-align: center;
-    }
-}
-
-}
-
-@media screen and (max-width:1351px) {
-    
-    .container-quienessomos{
-        flex-wrap: wrap;
-        div{
-            margin-right: 2em;
-        }
-    }
-
-    main{
-        video{
-            min-height: 100%;
-        }
-    }
-
-    .grid-precios {
-        width: 85%;
-        height: 610px;
-        div{
-            h2{
-                font-size: 20px;
-                color: rgb(0, 0, 0); 
-            }
-            h3{
-                font-size: 20px;
-            }
-        }
-    }
-    
-    .seccion2-derecha {
-        width: 50%;
-        height: 840px;
-        img{
-            width: 80%;
-            height: 600px;
-        }
-    }
-
-    .section2 {
-        height: 630px;
-    }
-
-.nuestrabarberia{
-    img{
-    width: 210px;
-    height: 160px;
-    margin: 10px;
-    }
-}
-
-}
-
-@media screen and (max-width:1126px) {
-    header{
-        nav{
+        form {
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            div{
-                a{
-                font-size: 25px;
-                margin: 2px;
-                text-align: center;
+            justify-content: center;
+            width: 98%;
+
+            div {
+                width: 98%;
+
+                label {
+                    font-size: large;
+                }
+
+                input {
+                    width: 96%;
+                    height: 55px;
+                    background-color: #f5f5f5;
+                    margin-bottom: 18px;
+                    letter-spacing: 0.1ex;
+                    text-transform: uppercase;
+                    text-indent: 0.5em;
+                    border-radius: 0.5em;
                 }
             }
         }
     }
 
+    .tuMensaje {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 320px;
 
+        div {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 98%;
+            height: auto;
 
-    .hero{
-        h1{
-            font-size: 40px;
-        }
-        div{
-            p{
-                font-size: 17px;
+            textarea {
+                height: 200px;
+                width: 96%;
+                margin-left: 0.5em;
             }
-        }
-    }
-    
-    .mediaquery-servicios{
-        max-width: 1400px;
-        margin: 0 auto;
-        h1 {
-        margin: 20px;
-        font-size: 25px;
-        text-align: center;
+
+            input {
+                margin-top: 15px;
+                width: 150px;
+                height: 45px;
+                margin-left: 0.5em;
+            }
         }
     }
 }
 
-@media screen and (max-width:1049px) {
-    .hero{
-        h1{
-            font-size: 35px;
+@media screen and (max-width:1491px) {
+
+    .containerQuienessomos {
+        margin-right: 0.7px;
+        padding-right: 0.7em;
+        width: 95%;
+        height: 560px;
+
+        div {
+            height: 550px;
+            width: 340px;
+            margin-right: 0em;
+        }
+    }
+
+    .fondoQuienessomos {
+        &:hover {
+            transform: translatex(-50%);
+        }
+    }
+
+
+    .contactanos {
+        margin-top: 70px;
+        font-size: 27px;
+    }
+
+    .mediaqueryServicios {
+        max-width: 1400px;
+        margin: 0 auto;
+
+        h1 {
+            margin: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+}
+
+@media screen and (max-width:1351px) {
+
+    .hero {
+        h1 {
+            font-size: 45px;
+        }
+
+        div {
+            p {
+                font-size: 20px;
             }
-        div{
-            p{
-            font-weight: 600px;
+        }
+    }
+
+    .containerQuienessomos {
+        flex-wrap: wrap;
+
+        div {
+            margin-right: 2em;
+        }
+    }
+
+    main {
+        video {
+            min-height: 100%;
+        }
+    }
+
+    .gridPrecios {
+        width: 85%;
+        height: 610px;
+
+        div {
+            h2 {
+                font-size: 20px;
+                color: rgb(0, 0, 0);
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .seccion2Derecha {
+        width: 50%;
+        height: 840px;
+        img {
+            width: 80%;
+            height: 600px;
+        }
+    }
+
+    .seccion2 {
+        height: 630px;
+    }
+
+    .nuestraBarberia {
+        img {
+            width: 210px;
+            height: 160px;
+            margin: 10px;
+        }
+    }
+
+    .barberiaTextoeIconos {
+        img {
+            width: 90px;
+            height: 90px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+    }
+
+}
+
+@media screen and (max-width:1126px) {
+    header {
+        nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                a {
+                    font-size: 25px;
+                    margin: 2px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .hero {
+        h1 {
+            font-size: 40px;
+        }
+
+        div {
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .barberiaTextoeIconos {
+        img {
+            width: 90px;
+            height: 90px;
+        }
+        h4 {
             font-size: 17px;
+        }
+    }
+
+    
+
+    
+
+    .mediaqueryServicios {
+        max-width: 1400px;
+        margin: 0 auto;
+
+        h1 {
+            margin: 20px;
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
+
+}
+
+@media screen and (max-width:1049px) {
+    .hero {
+        h1 {
+            font-size: 35px;
+        }
+
+        div {
+            p {
+                font-weight: 600px;
+                font-size: 16px;
             }
         }
     }
 
-    .nuestrabarberia{
-        img{
-        width: 160px;
-        height: 110px;
-        margin: 10px;
+    .margenSeccion1{
+        h2{
+            font-size: 30px;
         }
     }
 
-    .fotosbarberia{
-        p{
+    .nuestraBarberia {
+        img {
+            width: 160px;
+            height: 110px;
+            margin: 10px;
+        }
+    }
+
+    .fotosBarberia {
+        p {
             font-size: 13px;
         }
-        h3{
-            font-size: 22px;
+
+        h3 {
+            font-size: 32px;
         }
     }
-    .section2-h2 {
+
+    .seccion2-h2 {
         height: 50px;
         padding-top: 10px;
         font-size: 20px;
         font-weight: 100px;
     }
 
-    .grid-precios {
+    .gridPrecios {
         width: 80%;
         height: 500px;
-        div{
+
+        div {
             height: 52px;
-            h2{
+
+            h2 {
                 font-size: 15px;
-                color: rgb(0, 0, 0); 
+                color: rgb(0, 0, 0);
             }
-            h3{
+
+            h3 {
                 font-size: 10px;
             }
         }
     }
-    
-    .seccion2-derecha {
+
+    .seccion2Derecha {
         width: 50%;
         height: 550px;
-        img{
+
+        img {
             width: 80%;
             height: 490px;
         }
     }
 
-    .seccion2-izquierda {
+    .seccion2Izquierda {
         width: 50%;
         height: 550px;
     }
 
-    .section2 {
+    .seccion2 {
         height: 550px;
     }
+
+    .footer {
+        h2 {
+            font-size: 38px;
+            font-weight: 400;
+            margin: 5px;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 5px;
+        }
+    }
+
+    .redes {
+        margin: 5px;
+
+        a {
+            width: 40px;
+            height: 40px;
+            margin: 15px;
+        }
+
+        i {
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+
 
 }
 
 @media screen and (max-width: 990px) {
 
-    header{
-        nav{
-            ul{
-                li{
-                    a{
+    header {
+        nav {
+            ul {
+                li {
+                    a {
                         font-size: 15px;
                         font-family: 'Roboto Mono', monospace;
                     }
@@ -323,63 +421,74 @@ main{
             }
         }
     }
+
 }
 
 @media screen and (max-width: 976px) {
 
-    .hero{
-        h1{
+    .hero {
+        h1 {
             font-size: 35px;
-            }
-        div{
-            p{
-            font-weight: 600px;
-            font-size: 17px;
-            margin-bottom: 50px;
+        }
+
+        div {
+            p {
+                font-weight: 600px;
+                font-size: 17px;
+                margin-bottom: 50px;
             }
         }
     }
-    
 
-    .grid-precios {
+
+    .gridPrecios {
         width: 80%;
         height: 370px;
-        div{
+
+        div {
             height: 36px;
-            h2{
+
+            h2 {
                 font-size: 15px;
-                color: rgb(0, 0, 0); 
+                color: rgb(0, 0, 0);
             }
-            h3{
+
+            h3 {
                 font-size: 10px;
             }
         }
     }
-    
-    .seccion2-derecha {
+
+    .seccion2Derecha {
         width: 60%;
         height: 370px;
-        img{
+        margin-top: 25px;
+        margin-bottom: 30px;
+
+        img {
             width: 80%;
-            height: 370px;
+            height: 360px;
         }
     }
 
-    .seccion2-izquierda {
+    .seccion2Izquierda {
         width: 60%;
         height: 400px;
+        margin: 20px;
+        margin-top: 25px;
+        margin-bottom: 30px;
     }
 
-    .section2 {
+    .seccion2 {
         height: 450px;
     }
 
-    .grid-galeria {
+    .gridGaleria {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 220px;
     }
 
-    .grid-item {
+    .gridItem {
         grid-column: span 1;
         grid-row: span 1;
     }
@@ -398,117 +507,147 @@ main{
 
 }
 
-@media screen and (max-width: 847px){
-    .nuestrabarberia{
-        img{
-        width: 120px;
-        height: 80px;
-        margin: 5px;
+@media screen and (max-width: 847px) {
+    .nuestraBarberia {
+        img {
+            width: 120px;
+            height: 80px;
+            margin: 5px;
         }
     }
 
+    .galeria {
+        h1 {
+            font-size: 45px;
+            text-align: center;
+        }
+    }
 }
 
-@media screen and (max-width: 783px){
+@media screen and (max-width: 783px) {
 
 
-    .mediaquery-servicios{
+    .mediaqueryServicios {
         max-width: 1400px;
         margin: 0 auto;
+
         h1 {
-        margin: 20px;
-        font-size: 19px;
-        text-align: center;
+            margin: 20px;
+            font-size: 19px;
+            text-align: center;
         }
     }
 
     .t1 {
         margin: 12px;
+
         img {
-        width: 150px;
-        height: 200px;
+            width: 150px;
+            height: 200px;
         }
+
         div {
-        width: 400px;
-        height: 200px;
-        padding-top: 9%;
-            h2{
+            width: 400px;
+            height: 200px;
+            padding-top: 9%;
+
+            h2 {
                 font-size: 25px;
             }
-            p{
+
+            p {
                 font-size: 15px;
             }
         }
     }
-    
+
     .t2 {
         margin: 12px;
+
         img {
-        width: 150px;
-        height: 200px;
+            width: 150px;
+            height: 200px;
         }
+
         div {
-        width: 400px;
-        height: 200px;
-        padding-top: 7%;
-            h2{
+            width: 400px;
+            height: 200px;
+            padding-top: 7%;
+
+            h2 {
                 font-size: 25px;
             }
-            p{
+
+            p {
                 font-size: 15px;
             }
         }
     }
+
     .t3 {
         margin: 12px;
+
         img {
-        width: 150px;
-        height: 200px;
+            width: 150px;
+            height: 200px;
         }
+
         div {
-        width: 400px;
-        height: 200px;
-        padding-top: 9%;
-            h2{
+            width: 400px;
+            height: 200px;
+            padding-top: 9%;
+
+            h2 {
                 font-size: 25px;
             }
-            p{
+
+            p {
                 font-size: 15px;
             }
         }
     }
+
     .t4 {
         margin: 12px;
+
         img {
-        width: 150px;
-        height: 200px;
+            width: 150px;
+            height: 200px;
         }
+
         div {
-        width: 400px;
-        height: 200px;
-        padding-top: 5%;
-            h2{
+            width: 400px;
+            height: 200px;
+            padding-top: 5%;
+
+            h2 {
                 font-size: 25px;
             }
-            p{
+
+            p {
                 font-size: 15px;
             }
         }
     }
+
     .t5 {
         margin: 12px;
+
         img {
-        width: 150px;
-        height: 200px;
+            width: 150px;
+            height: 200px;
         }
+
         div {
-        width: 400px;
-        height: 200px;
-        padding-top: 7%;
-            h2{
+            width: 400px;
+            height: 200px;
+            padding-top: 7%;
+
+            h2 {
                 font-size: 25px;
             }
-            p{
+
+            p {
                 font-size: 15px;
             }
         }
@@ -518,92 +657,98 @@ main{
 
 @media screen and (max-width: 705px) {
 
-    header{
-        nav{
-            ul{
+    header {
+        nav {
+            ul {
                 flex-direction: column;
                 text-align: center;
-                li{
-                margin: 7px;
+
+                li {
+                    margin: 7px;
                 }
             }
         }
     }
 
-    
-.fondo-quienessomos{
-    &:hover{
-        transform: translatex(-40%);
-    }
-}
 
-    .hero{
-        h1{
+    .fondoQuienessomos {
+        &:hover {
+            transform: translatex(-40%);
+        }
+    }
+
+    .hero {
+        h1 {
             font-size: 35px;
             font-weight: 90px;
             margin-top: 125px;
             padding: 15px;
-            }
-        div{
-            p{
-            font-weight: 600px;
-            font-size: 15px;
-            margin-bottom: 30px;
-            padding-top: 70px;
-            text-align: center;
+        }
+
+        div {
+            p {
+                font-weight: 600px;
+                font-size: 15px;
+                margin-bottom: 30px;
+                padding-top: 70px;
+                text-align: center;
             }
         }
     }
 
-    .fotosbarberia{
-        h3{
-        margin-top: 10px;
-        margin-left: 0%;
-        font-size: 17px;
+    .fotosBarberia {
+        h3 {
+            margin-top: 10px;
+            margin-left: 0%;
+            font-size: 17px;
         }
     }
 
-    .fotosbarberia{
+    .fotosBarberia {
         p {
-        font-size: 11px;
+            font-size: 11px;
         }
     }
 
-    .seccion2-izquierda {
+    .seccion2Izquierda {
         width: 50%;
         height: 20px;
 
-        
+
     }
 
-    .grid-precios{
+    .gridPrecios {
         width: 80%;
         height: 430px;
-        div{
+
+        div {
             height: 33px;
-            h2{
-            font-size: 12px;
+
+            h2 {
+                font-size: 12px;
             }
-            h3{
+
+            h3 {
                 font-size: 9px;
             }
         }
     }
 
-    .section2 {
+    .seccion2 {
         height: 450px;
     }
 
-    .seccion2-derecha{
+    .seccion2Derecha {
         height: 400px;
         width: 50%;
+
         img {
-        width: 80%;
-        height: 350px;
+            width: 80%;
+            height: 350px;
         }
     }
 
-    .container-contacto {
+    .containerContacto {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -612,96 +757,123 @@ main{
 
     }
 
-.contactanos {
-    margin: 1em;
-    font-size: 25px;
-}
+    .contactanos {
+        margin: 1em;
+        font-size: 25px;
+    }
 
-.formulario{
-    margin-right: 0px;
-    margin-bottom: 1em;
-    width: 40%;
-    height: 230px;
-    form{
-        div{
+    .formulario {
+        margin-right: 0px;
+        margin-bottom: 1em;
+        width: 40%;
+        height: 230px;
+
+        form {
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0.2em;
+                height: 60px;
+                margin: 0%;
+
+                input {
+                    width: 220px;
+                    height: 26px;
+                    margin: 0%;
+                    padding: 0%;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .tuMensaje {
+        margin-left: 0px;
+        margin-top: 1em;
+        width: 40%;
+        height: 230px;
+
+        div {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 0.2em;
-            height: 60px;
-            margin: 0%;
-            input{
-                width: 220px;
-                height: 26px;
-                margin: 0%;
-                padding: 0%;
+
+            textarea {
+                height: 120px;
+                width: 215px;
+                letter-spacing: 0.1ex;
+                text-transform: uppercase;
+                text-indent: 0.2em;
+                margin-top: 40px;
+                font-size: 10px
+            }
+
+            input {
+                margin-top: 15px;
+                width: 55px;
+                height: 25px;
                 font-size: 10px;
             }
         }
     }
-}
-
-.tumensaje{
-    margin-left: 0px;
-    margin-top: 1em;
-    width: 40%;
-    height: 230px;
-    div{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        textarea{
-            height: 120px;
-            width: 215px;
-            letter-spacing: 0.1ex;
-            text-transform: uppercase;
-            text-indent: 0.2em;
-            margin-top: 40px;
-            font-size: 10px
-        }
-        input{
-            margin-top: 15px;
-            width: 55px;
-            height: 25px;
-            font-size: 10px; 
-        }
-    }
-}
 
 }
 
-@media screen and (max-width: 627px) { 
+@media screen and (max-width: 627px) {
 
-    .hero{
-        h1{
+    .hero {
+        h1 {
             font-size: 28px;
             font-weight: 90px;
             margin-top: 125px;
             padding: 15px;
-            }
-        div{
-            p{
-            font-size: 12px;
+        }
+
+        div {
+            p {
+                font-size: 12px;
             }
         }
     }
 
-    .section2 {
+    .margenSeccion1{
+        h2{
+            font-size: 20px;
+        }
+    }
+
+    .barberiaTextoeIconos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 90%;
+    }
+
+    .seccion1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 98%;
+    }
+
+    .seccion2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
         height: auto;
     }
 
-    .seccion2-izquierda {
+    .seccion2Izquierda {
         width: 370px;
         height: 650px;
         text-align: center;
-        div{
+
+        div {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -709,325 +881,365 @@ main{
         }
     }
 
-    .seccion2-derecha {
-        width:370px;
+    .seccion2Derecha {
+        width: 370px;
         height: 350px;
         margin: 0%;
         padding: 0%;
     }
 
-    .grid-precios{
-        div{
+    .gridPrecios {
+        div {
             height: 60px;
             width: 300px;
-            h2{
+
+            h2 {
                 font-size: 14px;
-                }
-            h3{
+            }
+
+            h3 {
                 font-size: 12px;
-                }
+            }
         }
     }
 
-    .fondo-quienessomos{
-        &:hover{
+    .fondoQuienessomos {
+        &:hover {
             transform: translatex(-15%);
         }
     }
 
-
-.nuestrabarberia{
-    img{
-    width: 100px;
-    height: 60px;
-    margin: 5px;
+    .galeria {
+        h1 {
+            font-size: 35px;
+            text-align: center;
+        }
     }
-}
-.formulario{
-    form{
-        div{
-            input{
+
+
+    .nuestraBarberia {
+        img {
+            width: 100px;
+            height: 60px;
+            margin: 5px;
+        }
+    }
+
+    .formulario {
+        form {
+            div {
+                input {
+                    width: 180px;
+                }
+            }
+        }
+    }
+
+    .tuMensaje {
+        div {
+            textarea {
                 width: 180px;
             }
         }
     }
-}
-
-.tumensaje{
-    div{
-        textarea{
-            width: 180px;
-        }
-    }
-}
 
 
 }
 
 @media screen and (max-width: 507px) {
 
-    .hero{
-        h1{
-        font-size: 25px;
-        font-weight: 90px;
-        margin-top: 85px;
-        padding: 10px;
+    .hero {
+        h1 {
+            font-size: 25px;
+            font-weight: 90px;
+            margin-top: 85px;
+            padding: 10px;
         }
     }
 
 
-    .nuestrabarberia{
+    .nuestraBarberia {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        img{
+
+        img {
             width: 220px;
             height: 170px;
             margin: 10px;
-            }
+        }
     }
-    
 
 
-    .margen-section1{
+
+    .margenSeccion1 {
         margin-top: 20px;
         margin-left: 60px;
         margin-right: 60px;
     }
 
-.margenes-servicios {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .margenesServicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .mediaqueryServicios {
+        max-width: 1400px;
+        margin: 0 auto;
+
+        h1 {
+            margin: 20px;
+            font-size: 19px;
+        }
+    }
+
+    .t1 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+        margin-bottom: 0.5em;
+
+        img {
+            width: 200px;
+            height: 300px;
+        }
+
+        div {
+            width: 200px;
+            height: 300px;
+            padding-top: 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 22px;
+                padding-top: 10px;
+            }
+
+            p {
+                font-size: 8px;
+                text-align: center;
+            }
+        }
+    }
+
+    .t2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+        margin-bottom: 0.5em;
+
+        img {
+            width: 200px;
+            height: 300px;
+        }
+
+        div {
+            width: 200px;
+            height: 300px;
+            padding-top: 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 22px;
+                padding-top: 10px;
+            }
+
+            p {
+                font-size: 8px;
+                text-align: center;
+            }
+        }
+    }
+
+    .t3 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+        margin-bottom: 0.5em;
+
+        img {
+            width: 200px;
+            height: 300px;
+        }
+
+        div {
+            width: 200px;
+            height: 300px;
+            padding-top: 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 22px;
+                padding-top: 10px;
+            }
+
+            p {
+                font-size: 8px;
+                text-align: center;
+            }
+        }
+    }
+
+    .t4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+        margin-bottom: 0.5em;
+
+        img {
+            width: 200px;
+            height: 300px;
+        }
+
+        div {
+            width: 200px;
+            height: 300px;
+            padding-top: 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 22px;
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            p {
+                font-size: 8px;
+                text-align: center;
+            }
+        }
+    }
+
+    .t5 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+        margin-bottom: 0.5em;
+
+        img {
+            width: 200px;
+            height: 300px;
+        }
+
+        div {
+            width: 200px;
+            height: 300px;
+            padding-top: 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-size: 22px;
+                padding-top: 10px;
+            }
+
+            p {
+                font-size: 8px;
+                text-align: center;
+            }
+        }
+    }
 
 }
 
-.mediaquery-servicios{
-    max-width: 1400px;
-    margin: 0 auto;
-    h1 {
-    margin: 20px;
-    font-size: 19px;
-    }
-}
 
-.t1 {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    margin-bottom: 0.5em;
-    img {
-    width: 200px;
-    height: 300px;
-    }
-    div {
-    width: 200px;
-    height: 300px;
-    padding-top: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-        h2{
-            font-size: 22px;
-            padding-top: 10px;
-        }
-        p{
-            font-size: 8px;
-            text-align: center;
-        }
-    }
-}
+@media screen and (max-width: 480px) {
 
-.t2 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    margin-bottom: 0.5em;
-    img {
-    width: 200px;
-    height: 300px;
-    }
-    div {
-    width: 200px;
-    height: 300px;
-    padding-top: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-        h2{
-            font-size: 22px;
-            padding-top: 10px;
-        }
-        p{
-            font-size: 8px;
-            text-align: center;
-        }
-    }
-}
-.t3 {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    margin-bottom: 0.5em;
-    img {
-    width: 200px;
-    height: 300px;
-    }
-    div {
-    width: 200px;
-    height: 300px;
-    padding-top: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-        h2{
-            font-size: 22px;
-            padding-top: 10px;
-        }
-        p{
-            font-size: 8px;
-            text-align: center;
-        }
-    }
-}
-.t4 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    margin-bottom: 0.5em;
-    img {
-    width: 200px;
-    height: 300px;
-    }
-    div {
-    width: 200px;
-    height: 300px;
-    padding-top: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-        h2{
-            font-size: 22px;
-            text-align: center;
-            padding-top: 10px;
-        }
-        p{
-            font-size: 8px;
-            text-align: center;
-        }
-    }
-}
-.t5 {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    margin-bottom: 0.5em;
-    img {
-    width: 200px;
-    height: 300px;
-    }
-    div {
-    width: 200px;
-    height: 300px;
-    padding-top: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-        h2{
-            font-size: 22px;
-            padding-top: 10px;
-        }
-        p{
-            font-size: 8px;
-            text-align: center;
-        }
-    }
-}
-
-.footer{
-    width: 350;
-}
-
-.footer{
-    h2{
-    font-size: large;
-    }
-}
-
-.footer{
-    p{
-    font-size: medium;
-    }
-}
-}
-
-
-@media screen and (max-width: 480px){
-
-    .formulario{
-        form{
-            div{
-                input{
+    .formulario {
+        form {
+            div {
+                input {
                     width: 150px;
                 }
             }
         }
     }
-    
-    .tumensaje{
-        div{
-            textarea{
+
+    .tuMensaje {
+        div {
+            textarea {
                 width: 150px;
             }
         }
     }
 
+    .footer {
+        h2 {
+            font-size: 35px;
+            font-weight: 400;
+            margin: 5px;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 5px;
+        }
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
 @media screen and (max-width: 450px) {
 
-    .container-quienessomos{
+    .containerQuienessomos {
         margin-right: 0.7px;
         padding-right: 0.7em;
         width: 95%;
         height: 560px;
-        div{
+
+        div {
             height: 550px;
             width: 340px;
             margin-right: 0em;
+        }
     }
-}
 
-    .fondo-quienessomos{
-        &:hover{
+    .fondoQuienessomos {
+        &:hover {
             transform: translatex(-5%);
         }
     }
 
-    .grid-galeria {
+    .gridGaleria {
         grid-template-columns: 1fr;
         grid-template-rows: 220px;
     }
 
-    .grid-item {
+    .gridItem {
         grid-column: span 1;
         grid-column: span 1;
     }
@@ -1040,22 +1252,30 @@ main{
         grid-row: span 1;
     }
 
-    .formulario{
-        form{
-            div{
-                input{
+    .formulario {
+        form {
+            div {
+                input {
                     width: 130px;
                 }
             }
         }
     }
-    
-    .tumensaje{
-        div{
-            textarea{
+
+    .tuMensaje {
+        div {
+            textarea {
                 width: 130px;
             }
         }
     }
+
+    .galeria {
+        h1 {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
 
 }

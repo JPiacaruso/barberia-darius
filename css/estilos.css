@@ -22,7 +22,7 @@ h1 {
   color: #d5abfe;
   height: 97%; }
 
-.section2, .seccion2-derecha {
+.section2, .seccion2Derecha {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -30,7 +30,7 @@ h1 {
 .section2 {
   height: 840px; }
 
-.seccion2-derecha {
+.seccion2Derecha {
   width: 50%;
   height: 840px; }
 
@@ -74,15 +74,21 @@ header nav div div ul li {
 body {
   font-family: 'Poppins', sans-serif; }
 
-.colordefondo {
+.btn {
+  color: grey;
+  background-color: white; }
+
+.colorDeFondo {
   background: #f1f7f9;
   background-image: linear-gradient(-350deg, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-blend-mode: lighten; }
 
-.section1 {
+.seccion1 {
   max-width: 1400px;
-  margin: 0 auto; }
-  .section1 h4 {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .seccion1 h4 {
     font-size: 25px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
@@ -90,9 +96,11 @@ body {
     text-align: center;
     text-shadow: 1px 1px 1px #c0c0c0; }
 
-.section2 {
-  max-width: 1400px;
-  margin: 0 auto; }
+.seccion2 {
+  max-width: 1450px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .hero {
   background-image: url(../img/barberia1.jpg);
@@ -132,16 +140,19 @@ body {
     margin-left: 30px;
     margin-right: 30px; }
 
-.margen-section1 {
+.margenSeccion1 {
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px; }
+  .margenSeccion1 h2 {
+    font-size: 40px;
+    text-align: center; }
 
-.nuestrabarberia {
+.nuestraBarberia {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; }
-  .nuestrabarberia img {
+  .nuestraBarberia img {
     width: 380px;
     height: 290px;
     margin: 10px;
@@ -150,12 +161,21 @@ body {
     -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     -moz-box-shadow: 13px -2px 22px -6px rgba(78, 86, 128, 0.88); }
 
-.fotosbarberia {
+.barberiaTextoeIconos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em; }
+  .barberiaTextoeIconos img {
+    width: 120px;
+    height: 120px; }
+
+.fotosBarberia {
   text-align: center; }
-  .fotosbarberia p {
+  .fotosBarberia p {
     font-family: 'Roboto Mono', monospace;
     text-shadow: 1px 1px 1px #ffffff; }
-  .fotosbarberia h3 {
+  .fotosBarberia h3 {
     font-size: 45px;
     font-weight: 600;
     text-align: center;
@@ -165,23 +185,26 @@ body {
     display: inline-block; }
 
 /*----LISTA DE PRECIOS----*/
-.section2 {
+.seccion2 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 840px; }
 
-.section2-h2 {
+.seccion1-h2 {
   text-align: center;
   height: 60px;
   padding-top: 7px;
   margin: 18px;
   font-family: 'Dancing Script', cursive;
-  font-size: 45px;
   text-shadow: 1px 1px 1px #b1b1b1;
   font-weight: 500px;
-  background-color: #cdaeb9;
-  border: 1px solid black;
+  background: #D1913C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFD194, #D1913C);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFD194, #D1913C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -189,20 +212,22 @@ body {
   margin-inline-end: 0px;
   padding-inline-start: 40px; }
 
-.seccion2-izquierda {
+.seccion2Izquierda {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 840px; }
+  height: 840px;
+  margin-top: 60px;
+  margin-bottom: 60px; }
 
-.grid-precios {
+.gridPrecios {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 80%;
   height: 820px; }
-  .grid-precios div {
+  .gridPrecios div {
     color: #fbb034;
     background-color: #474741;
     padding: 1em;
@@ -220,23 +245,25 @@ body {
     transition-property: color;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out; }
-    .grid-precios div:hover {
+    .gridPrecios div:hover {
       color: #191b1c;
       background-color: #f6d365;
       height: 97%; }
-    .grid-precios div h2 {
+    .gridPrecios div h2 {
       font-size: 25px;
       color: black; }
-    .grid-precios div h3 {
+    .gridPrecios div h3 {
       font-size: 25px; }
 
-.seccion2-derecha {
+.seccion2Derecha {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 840px; }
-  .seccion2-derecha img {
+  height: 840px;
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .seccion2Derecha img {
     width: 80%;
     height: 810px;
     box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
@@ -245,7 +272,7 @@ body {
     border-radius: 10px; }
 
 /*----SERVICIOS----*/
-.margenes-servicios {
+.margenesServicios {
   max-width: 1400px;
   margin: 0 auto; }
 
@@ -256,10 +283,10 @@ body {
     text-align: center;
     font-family: 'Roboto Mono', monospace; }
 
-.mediaquery-servicios {
+.mediaqueryServicios {
   max-width: 1400px;
   margin: 0 auto; }
-  .mediaquery-servicios h1 {
+  .mediaqueryServicios h1 {
     margin: 20px;
     font-size: 35px;
     text-align: center;
@@ -346,16 +373,16 @@ body {
       transform: rotatex(360deg); }
 
 /*----GALERIA----*/
-.tamano-galeria {
+.tamanoGaleria {
   max-width: 1400px;
   margin: 0 auto; }
 
-.grid-galeria {
+.gridGaleria {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 250px;
   gap: 10px; }
-  .grid-galeria div img {
+  .gridGaleria div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -363,7 +390,7 @@ body {
     -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
     transition: 1.3s; }
-    .grid-galeria div img:hover {
+    .gridGaleria div img:hover {
       transform: scale(1.05); }
 
 .galeria h1 {
@@ -383,12 +410,12 @@ body {
   grid-row: span 2; }
 
 /*----QUIENES SOMOS----*/
-.fondo-quienessomos {
+.fondoQuienessomos {
   transition: 1.7s; }
-  .fondo-quienessomos:hover {
+  .fondoQuienessomos:hover {
     transform: translatex(-70%);
     color: #c7e9e3;
-    background-color: #d9d9d9;
+    background-color: #dfdede;
     color: #212529; }
 
 main video {
@@ -399,13 +426,13 @@ main video {
   transform: translatex(-50%) translateY(-50%);
   z-index: -1; }
 
-.container-quienessomos {
+.containerQuienessomos {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   margin: 15px;
   width: 1800px; }
-  .container-quienessomos div {
+  .containerQuienessomos div {
     height: 650px;
     width: 100%;
     padding: 20px;
@@ -415,13 +442,13 @@ main video {
     text-align: center;
     color: #c3c3c3;
     border-radius: 25px; }
-    .container-quienessomos div h2 {
+    .containerQuienessomos div h2 {
       text-decoration: underline;
       font-size: 20px;
       text-align: center;
       margin-bottom: 20px;
       margin-top: 18px; }
-    .container-quienessomos div p {
+    .containerQuienessomos div p {
       font-size: 13;
       text-align: center; }
 
@@ -439,7 +466,7 @@ main video {
   animation-direction: initial;
   animation-delay: 0.5s; }
 
-@keyframes contactanos-titulo {
+@keyframes contactanosTitulo {
   from {
     margin-left: 100%;
     width: 300%; }
@@ -447,7 +474,7 @@ main video {
     margin-left: 0%;
     width: 100%; } }
 
-.container-contacto {
+.containerContacto {
   height: 500px;
   width: 100%;
   display: flex;
@@ -469,7 +496,9 @@ main video {
   .formulario form {
     width: 500px; }
     .formulario form div label {
-      font-size: large; }
+      font-size: large;
+      position: absolute;
+      left: 0; }
     .formulario form div input {
       width: 500px;
       height: 55px;
@@ -480,7 +509,7 @@ main video {
       text-indent: 0.5em;
       border-radius: 0.5em; }
 
-.tumensaje {
+.tuMensaje {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -492,14 +521,14 @@ main video {
   box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
   -webkit-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88);
   -moz-box-shadow: 13px -2px 22px -6px rgba(86, 86, 128, 0.88); }
-  .tumensaje div {
+  .tuMensaje div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     width: 500px;
     height: auto; }
-    .tumensaje div textarea {
+    .tuMensaje div textarea {
       background-color: #f5f5f5;
       height: 200px;
       width: 90%;
@@ -508,7 +537,7 @@ main video {
       text-indent: 0.2em;
       margin-top: 40px;
       border-radius: 0.5em; }
-    .tumensaje div input {
+    .tuMensaje div input {
       margin-top: 15px;
       width: 150px;
       height: 45px;
@@ -595,24 +624,24 @@ footer section {
     left: 50%;
     transform: translatex(-50%) translateY(-50%);
     z-index: -1; }
-  .fondo-quienessomos:hover {
+  .fondoQuienessomos:hover {
     transform: translatex(-60%); }
-  .container-quienessomos {
+  .containerQuienessomos {
     display: flex;
     align-items: center;
     margin-right: 15px;
     padding-right: 1em;
     width: 100%;
     height: 560px; }
-    .container-quienessomos div {
+    .containerQuienessomos div {
       height: 550px;
       width: 370px;
       margin-right: 1em; }
-      .container-quienessomos div h2 {
+      .containerQuienessomos div h2 {
         font-size: 20px;
         margin-bottom: 1em;
         margin-top: 0.5em; }
-      .container-quienessomos div p {
+      .containerQuienessomos div p {
         margin-top: 0.5em;
         font-size: 11px; }
   .formulario {
@@ -646,78 +675,87 @@ footer section {
           text-transform: uppercase;
           text-indent: 0.5em;
           border-radius: 0.5em; }
-  .tumensaje {
+  .tuMensaje {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 30%;
     height: 320px; }
-    .tumensaje div {
+    .tuMensaje div {
       display: flex;
       justify-content: center;
       text-align: center;
       width: 98%;
       height: auto; }
-      .tumensaje div textarea {
+      .tuMensaje div textarea {
         height: 200px;
         width: 96%;
         margin-left: 0.5em; }
-      .tumensaje div input {
+      .tuMensaje div input {
         margin-top: 15px;
         width: 150px;
         height: 45px;
         margin-left: 0.5em; } }
 
 @media screen and (max-width: 1491px) {
-  .container-quienessomos {
+  .containerQuienessomos {
     margin-right: 0.7px;
     padding-right: 0.7em;
     width: 95%;
     height: 560px; }
-    .container-quienessomos div {
+    .containerQuienessomos div {
       height: 550px;
       width: 340px;
       margin-right: 0em; }
-  .fondo-quienessomos:hover {
+  .fondoQuienessomos:hover {
     transform: translatex(-50%); }
   .contactanos {
     margin-top: 70px;
     font-size: 27px; }
-  .mediaquery-servicios {
+  .mediaqueryServicios {
     max-width: 1400px;
     margin: 0 auto; }
-    .mediaquery-servicios h1 {
+    .mediaqueryServicios h1 {
       margin: 20px;
       font-size: 30px;
       text-align: center; } }
 
 @media screen and (max-width: 1351px) {
-  .container-quienessomos {
+  .hero h1 {
+    font-size: 45px; }
+  .hero div p {
+    font-size: 20px; }
+  .containerQuienessomos {
     flex-wrap: wrap; }
-    .container-quienessomos div {
+    .containerQuienessomos div {
       margin-right: 2em; }
   main video {
     min-height: 100%; }
-  .grid-precios {
+  .gridPrecios {
     width: 85%;
     height: 610px; }
-    .grid-precios div h2 {
+    .gridPrecios div h2 {
       font-size: 20px;
       color: black; }
-    .grid-precios div h3 {
+    .gridPrecios div h3 {
       font-size: 20px; }
-  .seccion2-derecha {
+  .seccion2Derecha {
     width: 50%;
     height: 840px; }
-    .seccion2-derecha img {
+    .seccion2Derecha img {
       width: 80%;
       height: 600px; }
-  .section2 {
+  .seccion2 {
     height: 630px; }
-  .nuestrabarberia img {
+  .nuestraBarberia img {
     width: 210px;
     height: 160px;
-    margin: 10px; } }
+    margin: 10px; }
+  .barberiaTextoeIconos img {
+    width: 90px;
+    height: 90px; }
+  .barberiaTextoeIconos h4 {
+    font-size: 20px; } }
 
 @media screen and (max-width: 1126px) {
   header nav {
@@ -733,10 +771,15 @@ footer section {
     font-size: 40px; }
   .hero div p {
     font-size: 17px; }
-  .mediaquery-servicios {
+  .barberiaTextoeIconos img {
+    width: 90px;
+    height: 90px; }
+  .barberiaTextoeIconos h4 {
+    font-size: 17px; }
+  .mediaqueryServicios {
     max-width: 1400px;
     margin: 0 auto; }
-    .mediaquery-servicios h1 {
+    .mediaqueryServicios h1 {
       margin: 20px;
       font-size: 25px;
       text-align: center; } }
@@ -746,41 +789,61 @@ footer section {
     font-size: 35px; }
   .hero div p {
     font-weight: 600px;
-    font-size: 17px; }
-  .nuestrabarberia img {
+    font-size: 16px; }
+  .margenSeccion1 h2 {
+    font-size: 30px; }
+  .nuestraBarberia img {
     width: 160px;
     height: 110px;
     margin: 10px; }
-  .fotosbarberia p {
+  .fotosBarberia p {
     font-size: 13px; }
-  .fotosbarberia h3 {
-    font-size: 22px; }
-  .section2-h2 {
+  .fotosBarberia h3 {
+    font-size: 32px; }
+  .seccion2-h2 {
     height: 50px;
     padding-top: 10px;
     font-size: 20px;
     font-weight: 100px; }
-  .grid-precios {
+  .gridPrecios {
     width: 80%;
     height: 500px; }
-    .grid-precios div {
+    .gridPrecios div {
       height: 52px; }
-      .grid-precios div h2 {
+      .gridPrecios div h2 {
         font-size: 15px;
         color: black; }
-      .grid-precios div h3 {
+      .gridPrecios div h3 {
         font-size: 10px; }
-  .seccion2-derecha {
+  .seccion2Derecha {
     width: 50%;
     height: 550px; }
-    .seccion2-derecha img {
+    .seccion2Derecha img {
       width: 80%;
       height: 490px; }
-  .seccion2-izquierda {
+  .seccion2Izquierda {
     width: 50%;
     height: 550px; }
-  .section2 {
-    height: 550px; } }
+  .seccion2 {
+    height: 550px; }
+  .footer h2 {
+    font-size: 38px;
+    font-weight: 400;
+    margin: 5px; }
+  .footer p {
+    font-size: 12px;
+    margin: 5px; }
+  .redes {
+    margin: 5px; }
+    .redes a {
+      width: 40px;
+      height: 40px;
+      margin: 15px; }
+    .redes i {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      line-height: 20px; } }
 
 @media screen and (max-width: 990px) {
   header nav ul li a {
@@ -794,31 +857,36 @@ footer section {
     font-weight: 600px;
     font-size: 17px;
     margin-bottom: 50px; }
-  .grid-precios {
+  .gridPrecios {
     width: 80%;
     height: 370px; }
-    .grid-precios div {
+    .gridPrecios div {
       height: 36px; }
-      .grid-precios div h2 {
+      .gridPrecios div h2 {
         font-size: 15px;
         color: black; }
-      .grid-precios div h3 {
+      .gridPrecios div h3 {
         font-size: 10px; }
-  .seccion2-derecha {
+  .seccion2Derecha {
     width: 60%;
-    height: 370px; }
-    .seccion2-derecha img {
+    height: 370px;
+    margin-top: 25px;
+    margin-bottom: 30px; }
+    .seccion2Derecha img {
       width: 80%;
-      height: 370px; }
-  .seccion2-izquierda {
+      height: 360px; }
+  .seccion2Izquierda {
     width: 60%;
-    height: 400px; }
-  .section2 {
+    height: 400px;
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px; }
+  .seccion2 {
     height: 450px; }
-  .grid-galeria {
+  .gridGaleria {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 220px; }
-  .grid-item {
+  .gridItem {
     grid-column: span 1;
     grid-row: span 1; }
   .img10 {
@@ -829,16 +897,19 @@ footer section {
     grid-row: span 2; } }
 
 @media screen and (max-width: 847px) {
-  .nuestrabarberia img {
+  .nuestraBarberia img {
     width: 120px;
     height: 80px;
-    margin: 5px; } }
+    margin: 5px; }
+  .galeria h1 {
+    font-size: 45px;
+    text-align: center; } }
 
 @media screen and (max-width: 783px) {
-  .mediaquery-servicios {
+  .mediaqueryServicios {
     max-width: 1400px;
     margin: 0 auto; }
-    .mediaquery-servicios h1 {
+    .mediaqueryServicios h1 {
       margin: 20px;
       font-size: 19px;
       text-align: center; }
@@ -914,7 +985,7 @@ footer section {
     text-align: center; }
     header nav ul li {
       margin: 7px; }
-  .fondo-quienessomos:hover {
+  .fondoQuienessomos:hover {
     transform: translatex(-40%); }
   .hero h1 {
     font-size: 35px;
@@ -927,33 +998,33 @@ footer section {
     margin-bottom: 30px;
     padding-top: 70px;
     text-align: center; }
-  .fotosbarberia h3 {
+  .fotosBarberia h3 {
     margin-top: 10px;
     margin-left: 0%;
     font-size: 17px; }
-  .fotosbarberia p {
+  .fotosBarberia p {
     font-size: 11px; }
-  .seccion2-izquierda {
+  .seccion2Izquierda {
     width: 50%;
     height: 20px; }
-  .grid-precios {
+  .gridPrecios {
     width: 80%;
     height: 430px; }
-    .grid-precios div {
+    .gridPrecios div {
       height: 33px; }
-      .grid-precios div h2 {
+      .gridPrecios div h2 {
         font-size: 12px; }
-      .grid-precios div h3 {
+      .gridPrecios div h3 {
         font-size: 9px; }
-  .section2 {
+  .seccion2 {
     height: 450px; }
-  .seccion2-derecha {
+  .seccion2Derecha {
     height: 400px;
     width: 50%; }
-    .seccion2-derecha img {
+    .seccion2Derecha img {
       width: 80%;
       height: 350px; }
-  .container-contacto {
+  .containerContacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -981,17 +1052,17 @@ footer section {
         margin: 0%;
         padding: 0%;
         font-size: 10px; }
-  .tumensaje {
+  .tuMensaje {
     margin-left: 0px;
     margin-top: 1em;
     width: 40%;
     height: 230px; }
-    .tumensaje div {
+    .tuMensaje div {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      .tumensaje div textarea {
+      .tuMensaje div textarea {
         height: 120px;
         width: 215px;
         letter-spacing: 0.1ex;
@@ -999,7 +1070,7 @@ footer section {
         text-indent: 0.2em;
         margin-top: 40px;
         font-size: 10px; }
-      .tumensaje div input {
+      .tuMensaje div input {
         margin-top: 15px;
         width: 55px;
         height: 25px;
@@ -1013,43 +1084,58 @@ footer section {
     padding: 15px; }
   .hero div p {
     font-size: 12px; }
-  .section2 {
+  .margenSeccion1 h2 {
+    font-size: 20px; }
+  .barberiaTextoeIconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .seccion1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 98%; }
+  .seccion2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 98%;
     height: auto; }
-  .seccion2-izquierda {
+  .seccion2Izquierda {
     width: 370px;
     height: 650px;
     text-align: center; }
-    .seccion2-izquierda div {
+    .seccion2Izquierda div {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-  .seccion2-derecha {
+  .seccion2Derecha {
     width: 370px;
     height: 350px;
     margin: 0%;
     padding: 0%; }
-  .grid-precios div {
+  .gridPrecios div {
     height: 60px;
     width: 300px; }
-    .grid-precios div h2 {
+    .gridPrecios div h2 {
       font-size: 14px; }
-    .grid-precios div h3 {
+    .gridPrecios div h3 {
       font-size: 12px; }
-  .fondo-quienessomos:hover {
+  .fondoQuienessomos:hover {
     transform: translatex(-15%); }
-  .nuestrabarberia img {
+  .galeria h1 {
+    font-size: 35px;
+    text-align: center; }
+  .nuestraBarberia img {
     width: 100px;
     height: 60px;
     margin: 5px; }
   .formulario form div input {
     width: 180px; }
-  .tumensaje div textarea {
+  .tuMensaje div textarea {
     width: 180px; } }
 
 @media screen and (max-width: 507px) {
@@ -1058,28 +1144,28 @@ footer section {
     font-weight: 90px;
     margin-top: 85px;
     padding: 10px; }
-  .nuestrabarberia {
+  .nuestraBarberia {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .nuestrabarberia img {
+    .nuestraBarberia img {
       width: 220px;
       height: 170px;
       margin: 10px; }
-  .margen-section1 {
+  .margenSeccion1 {
     margin-top: 20px;
     margin-left: 60px;
     margin-right: 60px; }
-  .margenes-servicios {
+  .margenesServicios {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .mediaquery-servicios {
+  .mediaqueryServicios {
     max-width: 1400px;
     margin: 0 auto; }
-    .mediaquery-servicios h1 {
+    .mediaqueryServicios h1 {
       margin: 20px;
       font-size: 19px; }
   .t1 {
@@ -1202,36 +1288,42 @@ footer section {
         padding-top: 10px; }
       .t5 div p {
         font-size: 8px;
-        text-align: center; }
-  .footer {
-    width: 350; }
-  .footer h2 {
-    font-size: large; }
-  .footer p {
-    font-size: medium; } }
+        text-align: center; } }
 
 @media screen and (max-width: 480px) {
   .formulario form div input {
     width: 150px; }
-  .tumensaje div textarea {
-    width: 150px; } }
+  .tuMensaje div textarea {
+    width: 150px; }
+  .footer h2 {
+    font-size: 35px;
+    font-weight: 400;
+    margin: 5px; }
+  .footer p {
+    font-size: 12px;
+    margin: 5px; }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
 
 @media screen and (max-width: 450px) {
-  .container-quienessomos {
+  .containerQuienessomos {
     margin-right: 0.7px;
     padding-right: 0.7em;
     width: 95%;
     height: 560px; }
-    .container-quienessomos div {
+    .containerQuienessomos div {
       height: 550px;
       width: 340px;
       margin-right: 0em; }
-  .fondo-quienessomos:hover {
+  .fondoQuienessomos:hover {
     transform: translatex(-5%); }
-  .grid-galeria {
+  .gridGaleria {
     grid-template-columns: 1fr;
     grid-template-rows: 220px; }
-  .grid-item {
+  .gridItem {
     grid-column: span 1;
     grid-column: span 1; }
   .img1 {
@@ -1240,5 +1332,8 @@ footer section {
     grid-row: span 1; }
   .formulario form div input {
     width: 130px; }
-  .tumensaje div textarea {
-    width: 130px; } }
+  .tuMensaje div textarea {
+    width: 130px; }
+  .galeria h1 {
+    font-size: 25px;
+    text-align: center; } }
