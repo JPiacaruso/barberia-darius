@@ -421,7 +421,6 @@
             }
         }
     }
-
 }
 
 @media screen and (max-width: 976px) {
@@ -521,6 +520,19 @@
             font-size: 45px;
             text-align: center;
         }
+    }
+
+    
+    .seccion2 {
+        height: 450px;
+    }
+
+    .seccion2Izquierda {
+        height: 430px;
+    }
+
+    .seccion2Derecha {
+        height: 430px;
     }
 }
 
@@ -712,14 +724,15 @@
 
     .seccion2Izquierda {
         width: 50%;
-        height: 20px;
-
-
+        height: auto;
     }
 
     .gridPrecios {
         width: 80%;
         height: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         div {
             height: 33px;
@@ -732,10 +745,6 @@
                 font-size: 9px;
             }
         }
-    }
-
-    .seccion2 {
-        height: 450px;
     }
 
     .seccion2Derecha {
@@ -839,6 +848,11 @@
         }
     }
 
+    .seccion2 {
+        margin-bottom: 30px;
+    }
+
+
     .margenSeccion1{
         h2{
             font-size: 20px;
@@ -846,10 +860,10 @@
     }
 
     .barberiaTextoeIconos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        margin: 10px;
+        h4{
+            font-size: 12px;
+        }
     }
 
     .seccion1{
@@ -859,20 +873,21 @@
         max-width: 98%;
     }
 
+
     .seccion2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 98%;
+        width: 100%;
         height: auto;
+        margin-bottom: 45px;
     }
 
     .seccion2Izquierda {
-        width: 370px;
-        height: 650px;
+        width: 98%;
+        height: 550px;
         text-align: center;
-
         div {
             display: flex;
             flex-direction: column;
@@ -882,10 +897,10 @@
     }
 
     .seccion2Derecha {
-        width: 370px;
+        width: 98%;
         height: 350px;
-        margin: 0%;
-        padding: 0%;
+        margin-bottom: 3px;
+
     }
 
     .gridPrecios {
@@ -946,7 +961,7 @@
 
 }
 
-@media screen and (max-width: 507px) {
+@media screen and (max-width: 533px) {
 
     .hero {
         h1 {
@@ -971,7 +986,11 @@
         }
     }
 
+    .seccion1{
+        display: flex;
+        flex-direction: column;
 
+    }
 
     .margenSeccion1 {
         margin-top: 20px;
@@ -985,6 +1004,13 @@
         justify-content: center;
         align-items: center;
 
+    }
+
+    .barberiaTextoeIconos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .mediaqueryServicios {
@@ -1231,6 +1257,16 @@
     .fondoQuienessomos {
         &:hover {
             transform: translatex(-5%);
+        }
+    }
+
+    .gridPrecios{
+        div{
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            text-align: center;
         }
     }
 
