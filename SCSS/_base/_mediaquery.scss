@@ -17,6 +17,10 @@
         &:hover {
             transform: translatex(-60%);
         }
+
+        h1{
+            font-size: 30px;
+        }
     }
 
 
@@ -139,9 +143,11 @@
     }
 
 
-    .contactanos {
+    .margenesContacto {
+        h1{
         margin-top: 70px;
         font-size: 27px;
+        }
     }
 
     .mediaqueryServicios {
@@ -274,9 +280,11 @@
         }
     }
 
-    
-
-    
+    .margenesContacto{
+        iframe{
+            height: 250px;
+        }
+    }
 
     .mediaqueryServicios {
         max-width: 1400px;
@@ -404,7 +412,11 @@
         }
     }
 
-
+    .fondoQuienessomos {
+        h1{
+            font-size: 25px;
+        }
+    }
 }
 
 @media screen and (max-width: 990px) {
@@ -766,9 +778,12 @@
 
     }
 
-    .contactanos {
-        margin: 1em;
-        font-size: 25px;
+    .margenesContacto {
+        h1{
+            margin: 1em;
+            font-size: 25px;
+        }
+
     }
 
     .formulario {
@@ -826,6 +841,12 @@
                 height: 25px;
                 font-size: 10px;
             }
+        }
+    }
+
+    .margenesContacto{
+        iframe{
+            height: 180px;
         }
     }
 
@@ -922,6 +943,10 @@
         &:hover {
             transform: translatex(-15%);
         }
+
+        h1{
+            font-size: 20px;
+        }
     }
 
     .galeria {
@@ -957,7 +982,6 @@
             }
         }
     }
-
 
 }
 
