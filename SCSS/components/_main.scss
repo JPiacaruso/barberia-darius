@@ -2,10 +2,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.btn{
+.btn {
     color: grey;
     background-color: white;
-} 
+}
 
 .colorDeFondo {
     background: $color-secundario;
@@ -157,10 +157,13 @@ body {
     font-family: 'Dancing Script', cursive;
     text-shadow: 1px 1px 1px #b1b1b1;
     font-weight: 500px;
-    background: #D1913C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #D1913C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFD194, #D1913C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFD194, #D1913C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -457,7 +460,7 @@ body {
         color: #212529;
     }
 
-    h1{
+    h1 {
         font-size: 35px;
         text-decoration: underline;
     }
@@ -524,13 +527,13 @@ main {
     animation-delay: 0.5s;
 }
 
-@keyframes contactanosTitulo{
-    from{
+@keyframes contactanosTitulo {
+    from {
         margin-left: 100%;
         width: 300%;
     }
 
-    to{
+    to {
         margin-left: 0%;
         width: 100%;
     }
