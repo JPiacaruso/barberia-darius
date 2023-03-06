@@ -459,7 +459,7 @@ main video {
   color: #212529;
   font-size: 35px;
   text-shadow: 7px 3px 6px rgba(0, 0, 0, 0.44);
-  animation-name: contactanos-titulo;
+  animation-name: contactanosTitulo;
   animation-duration: 1.5s;
   animation-timing-function: ease-in-out;
   animation-direction: initial;
@@ -1084,7 +1084,7 @@ footer section {
 
 @media screen and (max-width: 627px) {
   .hero h1 {
-    font-size: 28px;
+    font-size: 29px;
     font-weight: 90px;
     margin-top: 125px;
     padding: 15px; }
@@ -1102,7 +1102,7 @@ footer section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 98%; }
+    max-width: 99%; }
   .seccion2 {
     display: flex;
     flex-direction: column;
@@ -1112,7 +1112,7 @@ footer section {
     height: auto;
     margin-bottom: 45px; }
   .seccion2Izquierda {
-    width: 98%;
+    width: 99%;
     height: 550px;
     text-align: center; }
     .seccion2Izquierda div {

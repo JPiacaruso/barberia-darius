@@ -510,20 +510,20 @@ main {
     color: #212529;
     font-size: 35px;
     text-shadow: 7px 3px 6px rgba(0, 0, 0, 0.44);
-    animation-name: contactanos-titulo;
+    animation-name: contactanosTitulo;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-direction: initial;
     animation-delay: 0.5s;
 }
 
-@keyframes contactanosTitulo {
-    from {
+@keyframes contactanosTitulo{
+    from{
         margin-left: 100%;
         width: 300%;
     }
 
-    to {
+    to{
         margin-left: 0%;
         width: 100%;
     }
